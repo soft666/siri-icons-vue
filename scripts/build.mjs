@@ -18,7 +18,7 @@ const prepared = [];
 for (const icon of icons) {
   const { name, componentName, file } = icon;
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name ?? '')) throw new Error(`Invalid icon name: ${name}`);
-  if (!/^Siri[A-Za-z0-9]+$/.test(componentName ?? '')) throw new Error(`Invalid component name: ${componentName}`);
+  if (!/^Icon[A-Za-z0-9]+$/.test(componentName ?? '')) throw new Error(`Invalid component name: ${componentName}`);
   if (names.has(name)) throw new Error(`Duplicate icon name: ${name}`);
   if (componentNames.has(componentName)) throw new Error(`Duplicate component name: ${componentName}`);
   names.add(name);
@@ -36,6 +36,22 @@ for (const icon of icons) {
   prepared.push({ icon, source, sourcePath, ...compiled });
 }
 prepared.sort((a, b) => a.icon.name.localeCompare(b.icon.name, 'en'));
+const illustrationManifest = JSON.parse(await readFile(join(root,'assets/illustrations/manifest.json'),'utf8'));
+const artRoot = join(root,'assets/illustrations/original');
+const preparedIllustrations = [];
+const illustrationNames = new Set();
+for (const art of illustrationManifest.illustrations) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(art.name) || !/^Illustration[A-Za-z0-9]+$/.test(art.componentName))
+    throw new Error('Invalid illustration name: '+art.name);
+  if (illustrationNames.has(art.name) || componentNames.has(art.componentName)) throw new Error('Duplicate illustration: '+art.name);
+  illustrationNames.add(art.name);
+  const path = resolve(artRoot,art.file);
+  if (relative(artRoot,path).startsWith('..') || isAbsolute(relative(artRoot,path)) || !path.endsWith('.svg')) throw new Error('Invalid illustration SVG path');
+  const source = await readFile(path,'utf8');
+  const compiled = compileSvg(source,{colorMode:'original'});
+  preparedIllustrations.push({art,path,source,...compiled});
+}
+preparedIllustrations.sort((a,b)=>a.art.name.localeCompare(b.art.name,'en'));
 
 // Validation precedes replacing generated output, leaving a passing prior build
 // available if a newly exported SVG needs attention.
@@ -63,18 +79,39 @@ for (const { icon, source, sourcePath, definition, metadata: details } of prepar
   declarations.push(`export { default as ${componentName} } from './icons/${name}.js';`);
   metadata.push({ ...icon, ...details, sha256: createHash('sha256').update(source).digest('hex'), svg: `svg/${name}.svg`, import: componentName });
 }
+await mkdir(join(outputRoot,'illustrations/svg'),{recursive:true});
+const illustrationMetadata=[];
+for (const {art,path,source,definition,metadata: details} of preparedIllustrations) {
+  const {name,componentName}=art;
+  await writeFile(join(outputRoot,'illustrations',name+'.js'),
+    '// Generated from Figma node '+art.nodeId+'\n'+
+    "import { createIllustration } from '../runtime.js';\n"+
+    'const '+componentName+' = /*#__PURE__*/ createIllustration('+JSON.stringify(componentName)+','+JSON.stringify(definition)+');\n'+
+    'export { '+componentName+' };\nexport default '+componentName+';\n');
+  await writeFile(join(outputRoot,'illustrations',name+'.d.ts'),
+    "import type { IllustrationComponent } from '../runtime.js';\n"+
+    'declare const '+componentName+': IllustrationComponent;\nexport { '+componentName+' };\nexport default '+componentName+';\n');
+  await copyFile(path,join(outputRoot,'illustrations/svg',name+'.svg'));
+  exports.push("export { default as "+componentName+" } from './illustrations/"+name+".js';");
+  declarations.push("export { default as "+componentName+" } from './illustrations/"+name+".js';");
+  illustrationMetadata.push({...art,...details,sha256:createHash('sha256').update(source).digest('hex'),svg:'illustrations/svg/'+name+'.svg'});
+}
 await writeFile(join(outputRoot, 'index.js'), exports.join('\n') + '\n');
 await writeFile(join(outputRoot, 'index.d.ts'), [
-  `export type { IconProps, IconComponent } from './runtime.js';`,
+  `export type { IconProps, IconComponent, IllustrationProps, IllustrationComponent } from './runtime.js';`,
   `export type IconName = ${prepared.map(({ icon }) => JSON.stringify(icon.name)).join(' | ')};`,
+  `export type IllustrationName = ${preparedIllustrations.map(({art})=>JSON.stringify(art.name)).join(' | ')};`,
   ...declarations,
 ].join('\n') + '\n');
 await writeFile(join(outputRoot, 'metadata.json'), JSON.stringify({
   source: manifest.source ?? null,
   iconCount: metadata.length,
   icons: metadata,
+  illustrationCount: illustrationMetadata.length,
+  illustrationSource: illustrationManifest.source,
+  illustrations: illustrationMetadata,
 }, null, 2) + '\n');
 
 const sourceBytes = prepared.reduce((total, item) => total + Buffer.byteLength(item.source), 0);
 const modes = metadata.reduce((counts, icon) => ({ ...counts, [icon.colorMode]: (counts[icon.colorMode] ?? 0) + 1 }), {});
-console.log(JSON.stringify({ icons: prepared.length, colorModes: modes, sourceBytes, output: relative(root, outputRoot) }, null, 2));
+console.log(JSON.stringify({ icons: prepared.length, illustrations: preparedIllustrations.length, colorModes: modes, sourceBytes, output: relative(root, outputRoot) }, null, 2));

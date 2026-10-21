@@ -76,3 +76,7 @@ npm install ./vendor/siri-icons-vue-0.1.1.tgz
 ชุดเริ่มต้น export COMPONENT 371 รายการใน frame Icons ที่ระบุ และตรวจว่าหน้า Icons ไม่มี component อื่นอยู่นอก frame นั้นแล้ว
 
 INSTANCE 5 รายการที่อยู่ในกรอบ `Icon Name` เป็นส่วนประกอบของ label จึงไม่ถูกนับเป็นไอคอนเพิ่ม ส่วนหน้า Logo, Financial Logo, Pictograms และ Illustration เป็นคนละหมวดกับ frame Icons ที่นำมาทำแพ็กเกจนี้
+
+## เพิ่ม Illustration จาก Object Graphic
+
+ภาพประกอบ 52 ภาพแยก manifest ที่ `assets/illustrations/manifest.json` และ SVG ต้นฉบับ `assets/illustrations/original/` ใช้ `Illustration*` naming โดยรักษา `colorMode: "original"`. เวลาเพิ่มภาพใหม่ให้แก้ manifest และ SVG แล้วรัน `npm run check`, `node scripts/build-docs.mjs`. รูปหลายสีไม่ได้ใช้ `color` แบบ Icon; ค่าเริ่มต้นของ size คือ 120.

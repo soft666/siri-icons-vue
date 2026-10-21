@@ -25,3 +25,7 @@ export interface IconDefinition {
 
 /** @internal Generated icon modules use this shared runtime. */
 export declare function createIcon(name: string, definition: IconDefinition): IconComponent;
+
+export type IllustrationProps = Omit<IconProps,'color'>;
+export type IllustrationComponent = DefineComponent<IllustrationProps>;
+export declare function createIllustration(name: string, definition: IconDefinition): IllustrationComponent;

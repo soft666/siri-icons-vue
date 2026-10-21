@@ -1,0 +1,531 @@
+{
+  "source": {
+    "fileKey": "OHflJtmY9bt1jGdMFyRPpR",
+    "frameId": "643:16",
+    "pageId": "643:15",
+    "url": "https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=643-16",
+    "exportedAt": "2026-10-21"
+  },
+  "illustrations": [
+    {
+      "name": "accident",
+      "componentName": "IllustrationAccident",
+      "figmaName": "illus_accident",
+      "nodeId": "3539:125",
+      "file": "illus_accident.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "active-info",
+      "componentName": "IllustrationActiveInfo",
+      "figmaName": "illus_active_info",
+      "nodeId": "844:4095",
+      "file": "illus_active_info.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "approval-clipboard",
+      "componentName": "IllustrationApprovalClipboard",
+      "figmaName": "illus_approval_clipboard",
+      "nodeId": "1764:9322",
+      "file": "illus_approval_clipboard.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "cancel-clipboard",
+      "componentName": "IllustrationCancelClipboard",
+      "figmaName": "illus_cancel_clipboard",
+      "nodeId": "1723:517",
+      "file": "illus_cancel_clipboard.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "cancel-info",
+      "componentName": "IllustrationCancelInfo",
+      "figmaName": "illus_cancel_info",
+      "nodeId": "840:1898",
+      "file": "illus_cancel_info.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "caution-work-in-progress",
+      "componentName": "IllustrationCautionWorkInProgress",
+      "figmaName": "illus_caution_work_in_progress",
+      "nodeId": "2246:39",
+      "file": "illus_caution_work_in_progress.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "closed-house",
+      "componentName": "IllustrationClosedHouse",
+      "figmaName": "illus_closed_house",
+      "nodeId": "2244:384",
+      "file": "illus_closed_house.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "closed-store",
+      "componentName": "IllustrationClosedStore",
+      "figmaName": "illus_closed_store",
+      "nodeId": "1792:2377",
+      "file": "illus_closed_store.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "create-clipboard-cancel",
+      "componentName": "IllustrationCreateClipboardCancel",
+      "figmaName": "illus_create_clipboard_cancel",
+      "nodeId": "1741:554",
+      "file": "illus_create_clipboard_cancel.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "create-clipboard-fail",
+      "componentName": "IllustrationCreateClipboardFail",
+      "figmaName": "illus_create_clipboard_fail",
+      "nodeId": "2405:90",
+      "file": "illus_create_clipboard_fail.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "create-clipboard-successful",
+      "componentName": "IllustrationCreateClipboardSuccessful",
+      "figmaName": "illus_create_clipboard_successful",
+      "nodeId": "1723:461",
+      "file": "illus_create_clipboard_successful.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "create-info-cancel",
+      "componentName": "IllustrationCreateInfoCancel",
+      "figmaName": "illus_create_info_cancel",
+      "nodeId": "643:263",
+      "file": "illus_create_info_cancel.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "create-info-failure",
+      "componentName": "IllustrationCreateInfoFailure",
+      "figmaName": "illus_create_info_failure",
+      "nodeId": "2368:486",
+      "file": "illus_create_info_failure.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "delete-clipboard",
+      "componentName": "IllustrationDeleteClipboard",
+      "figmaName": "illus_delete_clipboard",
+      "nodeId": "1724:43",
+      "file": "illus_delete_clipboard.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "delete-img",
+      "componentName": "IllustrationDeleteImg",
+      "figmaName": "illus_delete_img",
+      "nodeId": "1749:628",
+      "file": "illus_delete_img.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "delete-info",
+      "componentName": "IllustrationDeleteInfo",
+      "figmaName": "illus_delete_info",
+      "nodeId": "643:185",
+      "file": "illus_delete_info.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "draw-area",
+      "componentName": "IllustrationDrawArea",
+      "figmaName": "illus_draw_area",
+      "nodeId": "4632:43",
+      "file": "illus_draw_area.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "edit-clipboard-successful",
+      "componentName": "IllustrationEditClipboardSuccessful",
+      "figmaName": "illus_edit_clipboard_successful",
+      "nodeId": "2424:671",
+      "file": "illus_edit_clipboard_successful.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-clipboard",
+      "componentName": "IllustrationEmptyClipboard",
+      "figmaName": "illus_empty_clipboard",
+      "nodeId": "1741:514",
+      "file": "illus_empty_clipboard.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-file",
+      "componentName": "IllustrationEmptyFile",
+      "figmaName": "illus_empty_file",
+      "nodeId": "1846:4487",
+      "file": "illus_empty_file.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-folder",
+      "componentName": "IllustrationEmptyFolder",
+      "figmaName": "illus_empty_folder",
+      "nodeId": "643:172",
+      "file": "illus_empty_folder.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-library",
+      "componentName": "IllustrationEmptyLibrary",
+      "figmaName": "illus_empty_library",
+      "nodeId": "737:6161",
+      "file": "illus_empty_library.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-pack",
+      "componentName": "IllustrationEmptyPack",
+      "figmaName": "illus_empty_pack",
+      "nodeId": "1821:9563",
+      "file": "illus_empty_pack.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "empty-store",
+      "componentName": "IllustrationEmptyStore",
+      "figmaName": "illus_empty_store",
+      "nodeId": "1621:94",
+      "file": "illus_empty_store.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "failure-clipboard",
+      "componentName": "IllustrationFailureClipboard",
+      "figmaName": "illus_failure_clipboard",
+      "nodeId": "1741:267",
+      "file": "illus_failure_clipboard.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "failure-store",
+      "componentName": "IllustrationFailureStore",
+      "figmaName": "illus_failure_store",
+      "nodeId": "1741:450",
+      "file": "illus_failure_store.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "global-link",
+      "componentName": "IllustrationGlobalLink",
+      "figmaName": "illus_global_link",
+      "nodeId": "4636:295",
+      "file": "illus_global_link.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "image-empty",
+      "componentName": "IllustrationImageEmpty",
+      "figmaName": "illus_image_empty",
+      "nodeId": "4629:21",
+      "file": "illus_image_empty.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "image-link",
+      "componentName": "IllustrationImageLink",
+      "figmaName": "illus_image_link",
+      "nodeId": "4636:277",
+      "file": "illus_image_link.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "inspect-unit-info",
+      "componentName": "IllustrationInspectUnitInfo",
+      "figmaName": "illlus_inspect_unit_info",
+      "nodeId": "643:121",
+      "file": "illlus_inspect_unit_info.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "mail-sending-successful",
+      "componentName": "IllustrationMailSendingSuccessful",
+      "figmaName": "illus_mail_sending_successful",
+      "nodeId": "3383:49",
+      "file": "illus_mail_sending_successful.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "new-info-successful",
+      "componentName": "IllustrationNewInfoSuccessful",
+      "figmaName": "illus_new_info_successful",
+      "nodeId": "643:215",
+      "file": "illus_new_info_successful.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "non-employee",
+      "componentName": "IllustrationNonEmployee",
+      "figmaName": "illus_non_employee",
+      "nodeId": "3436:52",
+      "file": "illus_non_employee.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "not-connected",
+      "componentName": "IllustrationNotConnected",
+      "figmaName": "illus_not_connected",
+      "nodeId": "3537:79",
+      "file": "illus_not_connected.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "not-permitted",
+      "componentName": "IllustrationNotPermitted",
+      "figmaName": "illus_not_permitted",
+      "nodeId": "3531:79",
+      "file": "illus_not_permitted.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "open-warning",
+      "componentName": "IllustrationOpenWarning",
+      "figmaName": "illus_open_warning",
+      "nodeId": "2441:86",
+      "file": "illus_open_warning.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "publish-question",
+      "componentName": "IllustrationPublishQuestion",
+      "figmaName": "illus_publish_question",
+      "nodeId": "2407:557",
+      "file": "illus_publish_question.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "publish-warning",
+      "componentName": "IllustrationPublishWarning",
+      "figmaName": "illus_publish_warning",
+      "nodeId": "2408:599",
+      "file": "illus_publish_warning.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "question",
+      "componentName": "IllustrationQuestion",
+      "figmaName": "illus_question",
+      "nodeId": "693:5214",
+      "file": "illus_question.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "search-contact-info",
+      "componentName": "IllustrationSearchContactInfo",
+      "figmaName": "illus_search_contact_info",
+      "nodeId": "734:6109",
+      "file": "illus_search_contact_info.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "search-info-folder",
+      "componentName": "IllustrationSearchInfoFolder",
+      "figmaName": "illus_search_info_folder",
+      "nodeId": "643:66",
+      "file": "illus_search_info_folder.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "search-pack",
+      "componentName": "IllustrationSearchPack",
+      "figmaName": "illus_search_pack",
+      "nodeId": "1799:7030",
+      "file": "illus_search_pack.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "unit-info-folder",
+      "componentName": "IllustrationUnitInfoFolder",
+      "figmaName": "illus_unit_info_folder",
+      "nodeId": "643:101",
+      "file": "illus_unit_info_folder.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "upload-fail",
+      "componentName": "IllustrationUploadFail",
+      "figmaName": "illus_upload_fail",
+      "nodeId": "2405:38",
+      "file": "illus_upload_fail.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "upload-successful",
+      "componentName": "IllustrationUploadSuccessful",
+      "figmaName": "illus_upload_successful",
+      "nodeId": "2371:529",
+      "file": "illus_upload_successful.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "upload-warning",
+      "componentName": "IllustrationUploadWarning",
+      "figmaName": "illus_upload_warning",
+      "nodeId": "3540:24",
+      "file": "illus_upload_warning.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "warning",
+      "componentName": "IllustrationWarning",
+      "figmaName": "illus_warning",
+      "nodeId": "2420:639",
+      "file": "illus_warning.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "wrong-qr-code",
+      "componentName": "IllustrationWrongQrCode",
+      "figmaName": "illus_wrong_qr_code",
+      "nodeId": "1884:232",
+      "file": "illus_wrong_qr_code.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "xls",
+      "componentName": "IllustrationXls",
+      "figmaName": "illus_xls",
+      "nodeId": "2934:2483",
+      "file": "illus_xls.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "xls-correct",
+      "componentName": "IllustrationXlsCorrect",
+      "figmaName": "illus_xls_correct",
+      "nodeId": "2938:45",
+      "file": "illus_xls_correct.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "xls-empty",
+      "componentName": "IllustrationXlsEmpty",
+      "figmaName": "illus_xls_empty",
+      "nodeId": "2934:2472",
+      "file": "illus_xls_empty.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    },
+    {
+      "name": "xls-incorrect",
+      "componentName": "IllustrationXlsIncorrect",
+      "figmaName": "illus_xls_incorrect",
+      "nodeId": "2950:79",
+      "file": "illus_xls_incorrect.svg",
+      "width": 120,
+      "height": 120,
+      "colorMode": "original"
+    }
+  ]
+}

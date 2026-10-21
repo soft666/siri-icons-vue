@@ -48,3 +48,7 @@ npm publish --access public
 ```
 
 The generated package in this handoff uses pre-existing validated code, renamed to `Siri*`, while this environment could not reinstall dev dependencies to rerun full Vue tests. Please run the documented checks locally before publishing.
+
+## Version 0.2.0: Figma Object Graphic illustrations
+
+This version adds 52 `Illustration*` exports to the 371 `Icon*` exports, without removing existing names. Run `npm ci && npm run check && npm publish --dry-run` locally before publishing. Creating a PR does not automatically publish to npm. Permission to redistribute the source artwork must be confirmed first.

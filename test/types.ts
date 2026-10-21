@@ -1,6 +1,8 @@
 import { h } from 'vue';
 import { IconArrowDown, type IconName, type IconProps } from 'siri-icons-vue';
 import ArrowDown from 'siri-icons-vue/icons/arrow-down';
+import { IllustrationEmptyFolder, type IllustrationName, type IllustrationProps } from 'siri-icons-vue';
+import EmptyFolder from 'siri-icons-vue/illustrations/empty-folder';
 
 const name: IconName = 'arrow-down';
 const props: IconProps = {
@@ -22,3 +24,9 @@ const unknownName: IconName = 'not-an-icon';
 const invalid: IconProps = { size: {} };
 void unknownName;
 void invalid;
+
+const illustrationName: IllustrationName = 'empty-folder';
+const illustrationProps: IllustrationProps = { size: 160, title: 'Empty' };
+h(IllustrationEmptyFolder, illustrationProps);
+h(EmptyFolder, {size:120});
+void illustrationName;
