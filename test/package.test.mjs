@@ -83,12 +83,12 @@ test('52 illustrations render in original color at size 120', async () => {
  assert.equal(metadata.illustrationCount,52);
  const app=createSSRApp({render:()=>h('div',metadata.illustrations.map(a=>h(icons[a.componentName])))});
  const html=await renderToString(app);
- assert.equal((html.match(/<svg\\b/g)||[]).length,52);
+ assert.equal((html.match(/<svg\b/g)||[]).length,52);
  const sample=await renderToString(createSSRApp({render:()=>h(icons.IllustrationSearchInfoFolder)}));
  assert.match(sample,/width="120"/);
  assert.match(sample,/linearGradient/);
  assert.doesNotMatch(sample,/fill="currentColor"/);
  const repeated=await renderToString(createSSRApp({render:()=>h('div',[h(icons.IllustrationSearchInfoFolder),h(icons.IllustrationSearchInfoFolder)])}));
- const ids=[...repeated.matchAll(/\\bid="([^"]+)"/g)].map(x=>x[1]);
+ const ids=[...repeated.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  assert.equal(ids.length,new Set(ids).size);
 });

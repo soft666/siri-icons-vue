@@ -77,6 +77,29 @@ button {
 
 ตัวอย่างที่นำไปวางใน Vue app ได้อยู่ใน `examples/BasicUsage.vue` ของ source ZIP
 
+## Illustrations / Object Graphic (52 assets)
+
+เพิ่มรูปประกอบแบบหลายสีจาก [Figma Object Graphic](https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=643-16) สำหรับ Empty State, Success, Warning และ Error โดยคงสี/Gradient/ClipPath จากต้นฉบับ
+
+```vue
+<script setup lang="ts">
+import { IconSearch, IllustrationEmptyFolder, IllustrationUploadSuccessful } from 'siri-icons-vue'
+</script>
+<template>
+  <IconSearch :size="24" />
+  <IllustrationEmptyFolder :size="120" title="ไม่พบข้อมูล" />
+  <IllustrationUploadSuccessful :size="160" />
+</template>
+```
+
+หรือ import แบบรายตัว:
+
+```ts
+import IllustrationEmptyFolder from 'siri-icons-vue/illustrations/empty-folder'
+```
+
+Illustrations มีค่า `size` เริ่มต้น 120 px และรักษาสีต้นฉบับจาก Figma; ไม่ควรใช้ `color` เพื่อเปลี่ยนภาพหลายสีแบบ monochrome Icon. ดู [รายการ Illustration ทั้งหมด](docs/ILLUSTRATIONS.md)
+
 ## Import เฉพาะไอคอน
 
 Named import จาก package root รองรับ tree shaking:
@@ -188,7 +211,7 @@ SVG ต้นฉบับอยู่ใน `assets/original/` และสำ�
 
 ตารางทั้งหมดอยู่ใน [docs/ICONS.md](docs/ICONS.md) และมี gallery แบบ offline ใน source ZIP ชื่อ `gallery.html` เปิดด้วย browser ได้โดยตรง
 
-ชื่อ Vue component สร้างจากชื่อ component ใน Figma โดยตัด `ic_` แล้วเติม `Siri` และเปลี่ยนเป็น PascalCase เช่น:
+ชื่อ Vue component สร้างจากชื่อ component ใน Figma โดยตัด `ic_` แล้วเติม `Icon` และเปลี่ยนเป็น PascalCase เช่น:
 
 | Figma | Import name | Subpath |
 | --- | --- | --- |
