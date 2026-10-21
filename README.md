@@ -100,6 +100,32 @@ import IllustrationEmptyFolder from 'siri-icons-vue/illustrations/empty-folder'
 
 Illustrations มีค่า `size` เริ่มต้น 120 px และรักษาสีต้นฉบับจาก Figma; ไม่ควรใช้ `color` เพื่อเปลี่ยนภาพหลายสีแบบ monochrome Icon. ดู [รายการ Illustration ทั้งหมด](docs/ILLUSTRATIONS.md)
 
+## Doodle Images จาก Figma (40 ภาพ)
+
+ชุด [Figma Doodle Image](https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=6013-7) มีภาพต้นฉบับ PNG 288 × 288 px จำนวน 40 ภาพ ใช้กับ Empty State, Error, Warning และสถานะต่าง ๆ คงรายละเอียด/สีต้นฉบับ ไม่ใช้ `currentColor` แบบ Icon
+
+```vue
+<script setup lang="ts">
+import { IconSearch, IllustrationEmptyFolder, DoodleSearchNotFound, DoodleEmptyFolder } from 'siri-icons-vue'
+</script>
+<template>
+  <IconSearch :size="24" />
+  <IllustrationEmptyFolder :size="120" />
+  <DoodleSearchNotFound :size="288" title="ไม่พบข้อมูล" />
+  <DoodleEmptyFolder :size="144" />
+</template>
+```
+
+ใช้ per-doodle import:
+
+```ts
+import DoodleEmptyFolder from 'siri-icons-vue/doodles/empty-folder'
+```
+
+Doodles รองรับ `size` (default 288), `width`, `height`, `title`, `alt` และ HTML image attributes โดย render เป็น `<img>`. ไฟล์ PNG ถูก embed เป็น self-contained data URL ในแต่ละ component เพื่อให้ SSR และตัว bundler ไม่ต้อง resolve path ภาพเพิ่ม โดยแต่ละ doodle ถูกแยก module และ tree shake ได้
+
+ไฟล์ PNG ต้นฉบับอยู่ใน `assets/doodles/original` และ output อยู่ใน `dist/doodles/png`. ดู [รายการ Doodle ทั้งหมด](docs/DOODLES.md)
+
 ## Import เฉพาะไอคอน
 
 Named import จาก package root รองรับ tree shaking:

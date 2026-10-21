@@ -24,3 +24,14 @@ lines.push('');
 await mkdir(resolve(root, 'docs'), { recursive: true });
 await writeFile(resolve(root, 'docs/ICONS.md'), lines.join('\n'), 'utf8');
 console.log('Generated docs/ICONS.md for ' + metadata.icons.length + ' icons.');
+
+const doodles=metadata.doodles??[];
+if(doodles.length){
+ const lines=['# Siri Doodles — Complete catalogue','',''+doodles.length+' original 288px PNG doodles from [Figma Doodle Image]('+metadata.doodleSource.url+').','','| # | Figma | Vue export | Subpath | Node |','| --- | --- | --- | --- | --- |'];
+ for(const [i,d] of doodles.entries()){
+  const url='https://www.figma.com/design/'+metadata.doodleSource.fileKey+'/Linen?node-id='+d.nodeId.replace(':','-');
+  lines.push('| '+(i+1)+' | '+d.figmaName+' | '+d.componentName+' | doodles/'+d.name+' | ['+d.nodeId+']('+url+') |');
+ }
+ await writeFile(resolve(root,'docs/DOODLES.md'),lines.join('\n')+'\n','utf8');
+ console.log('Generated docs/DOODLES.md for '+doodles.length+' doodles.');
+}

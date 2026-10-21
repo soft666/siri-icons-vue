@@ -77,3 +77,27 @@ export function createIcon(name, definition, defaultSize = 24) {
 }
 
 export function createIllustration(name, definition) { return createIcon(name, definition, 120); }
+
+/** Original Figma raster doodles rendered as self-contained PNG-backed Vue components. */
+export function createDoodle(name, src) {
+  return defineComponent({
+    name,
+    inheritAttrs: false,
+    props: {
+      size: { type: [Number, String], default: 288 },
+      title: { type: String, default: undefined },
+    },
+    setup(props,{attrs}) {
+      return () => {
+        const title=props.title?.trim();
+        const isLabelled=Boolean(title||attrs['aria-label']||attrs['aria-labelledby']||attrs.alt);
+        return h('img', mergeProps({
+          src, width:props.size,height:props.size,
+          alt: isLabelled ? (attrs.alt || title || '') : '',
+          'aria-hidden':isLabelled ? undefined : true,
+          decoding:'async',
+        },attrs));
+      };
+    },
+  });
+}

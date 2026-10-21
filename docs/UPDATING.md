@@ -80,3 +80,7 @@ INSTANCE 5 รายการที่อยู่ในกรอบ `Icon Name`
 ## เพิ่ม Illustration จาก Object Graphic
 
 ภาพประกอบ 52 ภาพแยก manifest ที่ `assets/illustrations/manifest.json` และ SVG ต้นฉบับ `assets/illustrations/original/` ใช้ `Illustration*` naming โดยรักษา `colorMode: "original"`. เวลาเพิ่มภาพใหม่ให้แก้ manifest และ SVG แล้วรัน `npm run check`, `node scripts/build-docs.mjs`. รูปหลายสีไม่ได้ใช้ `color` แบบ Icon; ค่าเริ่มต้นของ size คือ 120.
+
+## เพิ่ม / แก้ไข Doodle Image
+
+Doodles เป็น PNG 288×288 จาก [Figma Doodle Image](https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=6013-7). เพิ่ม/อัปเดต `assets/doodles/original/doodle-*.png` และ `assets/doodles/manifest.json`, ตั้งชื่อ export `Doodle*`, แล้วรัน `npm run check` และ `node scripts/build-docs.mjs`. ห้ามเปลี่ยน PNG เป็น monochrome/icon SVG โดยอัตโนมัติ.

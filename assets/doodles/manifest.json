@@ -1,0 +1,372 @@
+{
+  "source": {
+    "fileKey": "OHflJtmY9bt1jGdMFyRPpR",
+    "pageId": "6013:7",
+    "sectionId": "6115:4",
+    "url": "https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=6013-7",
+    "rasterization": "Figma 288x288 PNG render of each original raster-based doodle component",
+    "exportedAt": "2026-10-21"
+  },
+  "doodles": [
+    {
+      "name": "envelope-sending",
+      "componentName": "DoodleEnvelopeSending",
+      "figmaName": "doodle-envelope-sending",
+      "nodeId": "6115:5",
+      "file": "doodle-envelope-sending.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "bin-thrown",
+      "componentName": "DoodleBinThrown",
+      "figmaName": "doodle-bin-thrown",
+      "nodeId": "6115:3",
+      "file": "doodle-bin-thrown.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "bubble-question",
+      "componentName": "DoodleBubbleQuestion",
+      "figmaName": "doodle-bubble-question",
+      "nodeId": "6115:6",
+      "file": "doodle-bubble-question.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "paper-airplane",
+      "componentName": "DoodlePaperAirplane",
+      "figmaName": "doodle-paper-airplane",
+      "nodeId": "6115:7",
+      "file": "doodle-paper-airplane.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "sign",
+      "componentName": "DoodleSign",
+      "figmaName": "doodle-sign",
+      "nodeId": "6115:8",
+      "file": "doodle-sign.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "empty-folder",
+      "componentName": "DoodleEmptyFolder",
+      "figmaName": "doodle-empty-folder",
+      "nodeId": "6115:9",
+      "file": "doodle-empty-folder.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "search-not-found",
+      "componentName": "DoodleSearchNotFound",
+      "figmaName": "doodle-search-not-found",
+      "nodeId": "6115:10",
+      "file": "doodle-search-not-found.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "plug-disconnect",
+      "componentName": "DoodlePlugDisconnect",
+      "figmaName": "doodle-plug-disconnect",
+      "nodeId": "6115:12",
+      "file": "doodle-plug-disconnect.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "warning",
+      "componentName": "DoodleWarning",
+      "figmaName": "doodle-warning",
+      "nodeId": "6115:13",
+      "file": "doodle-warning.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "traffic-cone",
+      "componentName": "DoodleTrafficCone",
+      "figmaName": "doodle-traffic-cone",
+      "nodeId": "6115:11",
+      "file": "doodle-traffic-cone.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "beach-chair",
+      "componentName": "DoodleBeachChair",
+      "figmaName": "doodle-beach-chair",
+      "nodeId": "6115:14",
+      "file": "doodle-beach-chair.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "champagne-glasses-clinking",
+      "componentName": "DoodleChampagneGlassesClinking",
+      "figmaName": "doodle-champagne-glasses-clinking",
+      "nodeId": "6115:15",
+      "file": "doodle-champagne-glasses-clinking.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "empty-tray",
+      "componentName": "DoodleEmptyTray",
+      "figmaName": "doodle-empty-tray",
+      "nodeId": "6115:17",
+      "file": "doodle-empty-tray.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "empty-cabinet",
+      "componentName": "DoodleEmptyCabinet",
+      "figmaName": "doodle-empty-cabinet",
+      "nodeId": "6115:16",
+      "file": "doodle-empty-cabinet.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "write-on-clipboard",
+      "componentName": "DoodleWriteOnClipboard",
+      "figmaName": "doodle-write-on-clipboard",
+      "nodeId": "6115:18",
+      "file": "doodle-write-on-clipboard.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "coffee-mugs-clinking",
+      "componentName": "DoodleCoffeeMugsClinking",
+      "figmaName": "doodle-coffee-mugs-clinking",
+      "nodeId": "6115:20",
+      "file": "doodle-coffee-mugs-clinking.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "staff-only-door",
+      "componentName": "DoodleStaffOnlyDoor",
+      "figmaName": "doodle-staff-only-door",
+      "nodeId": "6115:21",
+      "file": "doodle-staff-only-door.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "checked-write",
+      "componentName": "DoodleCheckedWrite",
+      "figmaName": "doodle-checked-write",
+      "nodeId": "6115:19",
+      "file": "doodle-checked-write.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "sleeping-cat-on-chair",
+      "componentName": "DoodleSleepingCatOnChair",
+      "figmaName": "doodle-sleeping-cat-on chair",
+      "nodeId": "6115:22",
+      "file": "doodle-sleeping-cat-on-chair.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "empty-work-bag",
+      "componentName": "DoodleEmptyWorkBag",
+      "figmaName": "doodle-empty-work-bag",
+      "nodeId": "6115:23",
+      "file": "doodle-empty-work-bag.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "ufo-steal-document",
+      "componentName": "DoodleUfoStealDocument",
+      "figmaName": "doodle-ufo-steal-document",
+      "nodeId": "6115:24",
+      "file": "doodle-ufo-steal-document.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "corgy-box",
+      "componentName": "DoodleCorgyBox",
+      "figmaName": "doodle-corgy-box",
+      "nodeId": "6115:25",
+      "file": "doodle-corgy-box.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "restricted-area",
+      "componentName": "DoodleRestrictedArea",
+      "figmaName": "doodle-restricted-area",
+      "nodeId": "6115:26",
+      "file": "doodle-restricted-area.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "samoyed-unplug",
+      "componentName": "DoodleSamoyedUnplug",
+      "figmaName": "doodle-samoyed-unplug",
+      "nodeId": "6115:27",
+      "file": "doodle-samoyed-unplug.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "corgy-unplug",
+      "componentName": "DoodleCorgyUnplug",
+      "figmaName": "doodle-corgy-unplug",
+      "nodeId": "6115:28",
+      "file": "doodle-corgy-unplug.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "stop-signage",
+      "componentName": "DoodleStopSignage",
+      "figmaName": "doodle-stop-signage",
+      "nodeId": "6120:32",
+      "file": "doodle-stop-signage.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "power-button",
+      "componentName": "DoodlePowerButton",
+      "figmaName": "doodle-power-button",
+      "nodeId": "6122:34",
+      "file": "doodle-power-button.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "exit-door",
+      "componentName": "DoodleExitDoor",
+      "figmaName": "doodle-exit-door",
+      "nodeId": "6124:42",
+      "file": "doodle-exit-door.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "attachments-warning",
+      "componentName": "DoodleAttachmentsWarning",
+      "figmaName": "doodle-attachments-warning",
+      "nodeId": "6128:46",
+      "file": "doodle-attachments-warning.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "bull-terier-stealing-document",
+      "componentName": "DoodleBullTerierStealingDocument",
+      "figmaName": "doodle-bull-terier-stealing-document",
+      "nodeId": "6129:50",
+      "file": "doodle-bull-terier-stealing-document.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "file-error",
+      "componentName": "DoodleFileError",
+      "figmaName": "doodle-file-error",
+      "nodeId": "6131:52",
+      "file": "doodle-file-error.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "wrong-file",
+      "componentName": "DoodleWrongFile",
+      "figmaName": "doodle-wrong-file",
+      "nodeId": "6132:54",
+      "file": "doodle-wrong-file.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "caution-wet-floor-sign",
+      "componentName": "DoodleCautionWetFloorSign",
+      "figmaName": "doodle-caution-wet-floor-sign",
+      "nodeId": "6136:57",
+      "file": "doodle-caution-wet-floor-sign.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "empty-desk",
+      "componentName": "DoodleEmptyDesk",
+      "figmaName": "doodle-empty-desk",
+      "nodeId": "6141:59",
+      "file": "doodle-empty-desk.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "search-in-folder",
+      "componentName": "DoodleSearchInFolder",
+      "figmaName": "doodle-search-in-folder",
+      "nodeId": "6171:81",
+      "file": "doodle-search-in-folder.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "switch-on-off",
+      "componentName": "DoodleSwitchOnOff",
+      "figmaName": "doodle-switch-on-off",
+      "nodeId": "6171:78",
+      "file": "doodle-switch-on-off.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "cat-leave",
+      "componentName": "DoodleCatLeave",
+      "figmaName": "doodle-cat-leave",
+      "nodeId": "6171:77",
+      "file": "doodle-cat-leave.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "pom-destroy-paper",
+      "componentName": "DoodlePomDestroyPaper",
+      "figmaName": "doodle-pom-destroy-paper",
+      "nodeId": "6171:79",
+      "file": "doodle-pom-destroy-paper.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "bulldog-paper-damage",
+      "componentName": "DoodleBulldogPaperDamage",
+      "figmaName": "doodle-bulldog-paper-damage",
+      "nodeId": "6171:80",
+      "file": "doodle-bulldog-paper-damage.png",
+      "width": 288,
+      "height": 288
+    },
+    {
+      "name": "search-giift",
+      "componentName": "DoodleSearchGiift",
+      "figmaName": "doodle-search-giift",
+      "nodeId": "6183:90",
+      "file": "doodle-search-giift.png",
+      "width": 288,
+      "height": 288
+    }
+  ]
+}

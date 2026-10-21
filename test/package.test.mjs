@@ -10,7 +10,7 @@ import * as icons from '../dist/index.js';
 const metadata = JSON.parse(await readFile(new URL('../dist/metadata.json', import.meta.url), 'utf8'));
 
 test('every source icon is exported once and renders a non-empty SVG', async () => {
-  assert.equal(Object.keys(icons).length, metadata.iconCount + metadata.illustrationCount);
+  assert.equal(Object.keys(icons).length, metadata.iconCount + metadata.illustrationCount + metadata.doodleCount);
   assert.equal(new Set(metadata.icons.map((icon) => icon.name)).size, metadata.iconCount);
   const app = createSSRApp({ render: () => h('div', metadata.icons.map((icon) => h(icons[icon.componentName], { 'data-source-id': icon.nodeId }))) });
   const html = await renderToString(app);
@@ -91,4 +91,16 @@ test('52 illustrations render in original color at size 120', async () => {
  const repeated=await renderToString(createSSRApp({render:()=>h('div',[h(icons.IllustrationSearchInfoFolder),h(icons.IllustrationSearchInfoFolder)])}));
  const ids=[...repeated.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  assert.equal(ids.length,new Set(ids).size);
+});
+
+test('all 40 Figma doodles are exported as accessible PNG-backed Vue images',async()=>{
+ assert.equal(metadata.doodleCount,40);
+ const app=createSSRApp({render:()=>h('div',metadata.doodles.map(a=>h(icons[a.componentName])))});
+ const html=await renderToString(app);
+ assert.equal((html.match(/<img\b/g)||[]).length,40);
+ const sample=await renderToString(createSSRApp({render:()=>h(icons.DoodleEmptyFolder,{size:144,title:'Empty folder'})}));
+ assert.match(sample,/width="144"/);
+ assert.match(sample,/height="144"/);
+ assert.match(sample,/alt="Empty folder"/);
+ assert.match(sample,/data:image\/png;base64,/);
 });
