@@ -96,11 +96,45 @@ for (const {art,path,source,definition,metadata: details} of preparedIllustratio
   declarations.push("export { default as "+componentName+" } from './illustrations/"+name+".js';");
   illustrationMetadata.push({...art,...details,sha256:createHash('sha256').update(source).digest('hex'),svg:'illustrations/svg/'+name+'.svg'});
 }
+const doodleManifest=JSON.parse(await readFile(join(root,'assets/doodles/manifest.json'),'utf8'));
+const doodles=doodleManifest.doodles;
+if (!Array.isArray(doodles) || doodles.length!==40) throw new Error('Expected 40 Figma doodles.');
+const doodleNames=new Set();
+const doodleComponents=new Set();
+await mkdir(join(outputRoot,'doodles/png'),{recursive:true});
+const doodleMetadata=[];
+for(const doodle of doodles) {
+ const {name,componentName,file}=doodle;
+ if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name)||!/^Doodle[A-Za-z0-9]+$/.test(componentName))throw new Error('Invalid doodle name: '+name);
+ if(doodleNames.has(name)||doodleComponents.has(componentName)||componentNames.has(componentName))throw new Error('Duplicate doodle: '+name);
+ doodleNames.add(name);doodleComponents.add(componentName);
+ const originalRoot=join(root,'assets/doodles/original');
+ const sourcePath=resolve(originalRoot,file);
+ const childPath=relative(originalRoot,sourcePath);
+ if(childPath.startsWith('..')||isAbsolute(childPath)||!file.endsWith('.png'))throw new Error('Invalid PNG source: '+file);
+ const png=await readFile(sourcePath);
+ if(png.length<50||png.subarray(0,8).toString('hex')!=='89504e470d0a1a0a')throw new Error('Invalid PNG: '+file);
+ const width=png.readUInt32BE(16),height=png.readUInt32BE(20);
+ if(width!==288||height!==288)throw new Error('Expected 288x288 PNG: '+file);
+ const url='data:image/png;base64,'+png.toString('base64');
+ await writeFile(join(outputRoot,'doodles',name+'.js'),
+  "import { createDoodle } from '../runtime.js';\n"+
+  'const '+componentName+' = /*#__PURE__*/ createDoodle('+JSON.stringify(componentName)+','+JSON.stringify(url)+');\n'+
+  'export { '+componentName+' };\nexport default '+componentName+';\n');
+ await writeFile(join(outputRoot,'doodles',name+'.d.ts'),
+  "import type { DoodleComponent } from '../runtime.js';\n"+
+  'declare const '+componentName+': DoodleComponent;\nexport { '+componentName+' };\nexport default '+componentName+';\n');
+ await copyFile(sourcePath,join(outputRoot,'doodles/png',name+'.png'));
+ exports.push("export { default as "+componentName+" } from './doodles/"+name+".js';");
+ declarations.push("export { default as "+componentName+" } from './doodles/"+name+".js';");
+ doodleMetadata.push({...doodle,sha256:createHash('sha256').update(png).digest('hex'),png:'doodles/png/'+name+'.png'});
+}
 await writeFile(join(outputRoot, 'index.js'), exports.join('\n') + '\n');
 await writeFile(join(outputRoot, 'index.d.ts'), [
-  `export type { IconProps, IconComponent, IllustrationProps, IllustrationComponent } from './runtime.js';`,
+  `export type { IconProps, IconComponent, IllustrationProps, IllustrationComponent, DoodleProps, DoodleComponent } from './runtime.js';`,
   `export type IconName = ${prepared.map(({ icon }) => JSON.stringify(icon.name)).join(' | ')};`,
   `export type IllustrationName = ${preparedIllustrations.map(({art})=>JSON.stringify(art.name)).join(' | ')};`,
+  `export type DoodleName = ${doodles.map(d=>JSON.stringify(d.name)).join(' | ')};`,
   ...declarations,
 ].join('\n') + '\n');
 await writeFile(join(outputRoot, 'metadata.json'), JSON.stringify({
@@ -110,8 +144,11 @@ await writeFile(join(outputRoot, 'metadata.json'), JSON.stringify({
   illustrationCount: illustrationMetadata.length,
   illustrationSource: illustrationManifest.source,
   illustrations: illustrationMetadata,
+  doodleCount: doodleMetadata.length,
+  doodleSource: doodleManifest.source,
+  doodles: doodleMetadata,
 }, null, 2) + '\n');
 
 const sourceBytes = prepared.reduce((total, item) => total + Buffer.byteLength(item.source), 0);
 const modes = metadata.reduce((counts, icon) => ({ ...counts, [icon.colorMode]: (counts[icon.colorMode] ?? 0) + 1 }), {});
-console.log(JSON.stringify({ icons: prepared.length, illustrations: preparedIllustrations.length, colorModes: modes, sourceBytes, output: relative(root, outputRoot) }, null, 2));
+console.log(JSON.stringify({ icons: prepared.length, illustrations: preparedIllustrations.length, doodles: doodleMetadata.length, colorModes: modes, sourceBytes, output: relative(root, outputRoot) }, null, 2));

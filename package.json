@@ -1,7 +1,7 @@
 {
   "name": "siri-icons-vue",
-  "version": "0.2.0",
-  "description": "371 Vue 3 icons and 52 original-color Figma illustrations",
+  "version": "0.3.0",
+  "description": "371 Vue SVG icons, 52 Figma illustrations and 40 Doodle image components",
   "license": "UNLICENSED",
   "type": "module",
   "sideEffects": false,
@@ -27,7 +27,13 @@
       "import": "./dist/illustrations/*.js",
       "default": "./dist/illustrations/*.js"
     },
-    "./illustrations/svg/*": "./dist/illustrations/svg/*"
+    "./illustrations/svg/*": "./dist/illustrations/svg/*",
+    "./doodles/*": {
+      "types": "./dist/doodles/*.d.ts",
+      "import": "./dist/doodles/*.js",
+      "default": "./dist/doodles/*.js"
+    },
+    "./doodles/png/*": "./dist/doodles/png/*"
   },
   "files": [
     "dist",
@@ -36,7 +42,8 @@
     "README.md",
     "NOTICE.md",
     "docs",
-    "assets/illustrations"
+    "assets/illustrations",
+    "assets/doodles"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",

@@ -30,3 +30,11 @@ const illustrationProps: IllustrationProps = { size: 160, title: 'Empty' };
 h(IllustrationEmptyFolder, illustrationProps);
 h(EmptyFolder, {size:120});
 void illustrationName;
+
+import { DoodleEmptyFolder, type DoodleName, type DoodleProps } from 'siri-icons-vue';
+import EmptyDoodle from 'siri-icons-vue/doodles/empty-folder';
+const doodleName: DoodleName = 'empty-folder';
+const doodleProps: DoodleProps = {size:144,title:'Empty folder'};
+h(DoodleEmptyFolder,doodleProps);
+h(EmptyDoodle,{size:288});
+void doodleName;

@@ -29,3 +29,11 @@ export declare function createIcon(name: string, definition: IconDefinition): Ic
 export type IllustrationProps = Omit<IconProps,'color'>;
 export type IllustrationComponent = DefineComponent<IllustrationProps>;
 export declare function createIllustration(name: string, definition: IconDefinition): IllustrationComponent;
+
+import type { ImgHTMLAttributes } from 'vue';
+export interface DoodleProps extends ImgHTMLAttributes {
+  size?: number | string;
+  title?: string;
+}
+export type DoodleComponent = DefineComponent<DoodleProps>;
+export declare function createDoodle(name:string,src:string):DoodleComponent;
