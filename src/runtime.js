@@ -31,12 +31,12 @@ function renderNode(node, ids) {
 }
 
 /** @internal Generated icon modules use this shared runtime. */
-export function createIcon(name, definition) {
+export function createIcon(name, definition, defaultSize = 24) {
   return defineComponent({
     name,
     inheritAttrs: false,
     props: {
-      size: { type: [Number, String], default: 24 },
+      size: { type: [Number, String], default: defaultSize },
       color: { type: String, default: 'currentColor' },
       title: { type: String, default: undefined },
     },
@@ -75,3 +75,5 @@ export function createIcon(name, definition) {
     },
   });
 }
+
+export function createIllustration(name, definition) { return createIcon(name, definition, 120); }

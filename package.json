@@ -1,7 +1,7 @@
 {
   "name": "siri-icons-vue",
-  "version": "0.1.0",
-  "description": "371 tree-shakeable Vue 3 SVG icon components from a Figma icon set.",
+  "version": "0.2.0",
+  "description": "371 Vue 3 icons and 52 original-color Figma illustrations",
   "license": "UNLICENSED",
   "type": "module",
   "sideEffects": false,
@@ -21,7 +21,13 @@
     },
     "./svg/*": "./dist/svg/*",
     "./metadata.json": "./dist/metadata.json",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./illustrations/*": {
+      "types": "./dist/illustrations/*.d.ts",
+      "import": "./dist/illustrations/*.js",
+      "default": "./dist/illustrations/*.js"
+    },
+    "./illustrations/svg/*": "./dist/illustrations/svg/*"
   },
   "files": [
     "dist",
@@ -29,7 +35,8 @@
     "assets/original",
     "README.md",
     "NOTICE.md",
-    "docs"
+    "docs",
+    "assets/illustrations"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",

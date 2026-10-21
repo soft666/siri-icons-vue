@@ -10,7 +10,7 @@ import * as icons from '../dist/index.js';
 const metadata = JSON.parse(await readFile(new URL('../dist/metadata.json', import.meta.url), 'utf8'));
 
 test('every source icon is exported once and renders a non-empty SVG', async () => {
-  assert.equal(Object.keys(icons).length, metadata.iconCount);
+  assert.equal(Object.keys(icons).length, metadata.iconCount + metadata.illustrationCount);
   assert.equal(new Set(metadata.icons.map((icon) => icon.name)).size, metadata.iconCount);
   const app = createSSRApp({ render: () => h('div', metadata.icons.map((icon) => h(icons[icon.componentName], { 'data-source-id': icon.nodeId }))) });
   const html = await renderToString(app);
@@ -77,4 +77,18 @@ test('named import bundles exclude every unused icon and keep Vue external', asy
     .filter(([path, contribution]) => path.includes('/icons/') && contribution.bytesInOutput > 0);
   assert.equal(exportedInputs.length, 1, JSON.stringify(exportedInputs));
   console.log(`One icon + runtime: ${Buffer.byteLength(output)} bytes minified, ${gzipSync(output).length} bytes gzip (Vue external).`);
+});
+
+test('52 illustrations render in original color at size 120', async () => {
+ assert.equal(metadata.illustrationCount,52);
+ const app=createSSRApp({render:()=>h('div',metadata.illustrations.map(a=>h(icons[a.componentName])))});
+ const html=await renderToString(app);
+ assert.equal((html.match(/<svg\\b/g)||[]).length,52);
+ const sample=await renderToString(createSSRApp({render:()=>h(icons.IllustrationSearchInfoFolder)}));
+ assert.match(sample,/width="120"/);
+ assert.match(sample,/linearGradient/);
+ assert.doesNotMatch(sample,/fill="currentColor"/);
+ const repeated=await renderToString(createSSRApp({render:()=>h('div',[h(icons.IllustrationSearchInfoFolder),h(icons.IllustrationSearchInfoFolder)])}));
+ const ids=[...repeated.matchAll(/\\bid="([^"]+)"/g)].map(x=>x[1]);
+ assert.equal(ids.length,new Set(ids).size);
 });
