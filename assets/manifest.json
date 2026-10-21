@@ -1,0 +1,3355 @@
+{
+  "source": {
+    "fileKey": "OHflJtmY9bt1jGdMFyRPpR",
+    "fileName": "Linen",
+    "nodeId": "112:6764",
+    "pageId": "112:6763",
+    "pageName": "↳ Icons",
+    "url": "https://www.figma.com/design/OHflJtmY9bt1jGdMFyRPpR/Linen?node-id=112-6764",
+    "exportedAt": "2026-10-21",
+    "exportMethod": "Figma Plugin API exportAsync SVG_STRING",
+    "componentCount": 371,
+    "excludedInstances": 5
+  },
+  "icons": [
+    {
+      "name": "3d",
+      "componentName": "Icon3d",
+      "file": "ic_3d.svg",
+      "nodeId": "2861:1718",
+      "figmaName": "ic_3d",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "arrow-down",
+      "componentName": "IconArrowDown",
+      "file": "ic_arrow_down.svg",
+      "nodeId": "96:5941",
+      "figmaName": "ic_arrow_down",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "arrow-left",
+      "componentName": "IconArrowLeft",
+      "file": "ic_arrow_left.svg",
+      "nodeId": "96:5926",
+      "figmaName": "ic_arrow_left",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "arrow-right",
+      "componentName": "IconArrowRight",
+      "file": "ic_arrow_right.svg",
+      "nodeId": "96:5931",
+      "figmaName": "ic_arrow_right",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "arrow-up",
+      "componentName": "IconArrowUp",
+      "file": "ic_arrow_up.svg",
+      "nodeId": "96:5936",
+      "figmaName": "ic_arrow_up",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "attach",
+      "componentName": "IconAttach",
+      "file": "ic_attach.svg",
+      "nodeId": "371:29400",
+      "figmaName": "ic_attach",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "avoid",
+      "componentName": "IconAvoid",
+      "file": "ic_avoid.svg",
+      "nodeId": "404:9526",
+      "figmaName": "ic_avoid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "box-doc",
+      "componentName": "IconBoxDoc",
+      "file": "ic_box_doc.svg",
+      "nodeId": "405:391",
+      "figmaName": "ic_box_doc",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "bookmark-line",
+      "componentName": "IconBookmarkLine",
+      "file": "ic_bookmark_line.svg",
+      "nodeId": "4072:2231",
+      "figmaName": "ic_bookmark_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "bookmark-solid",
+      "componentName": "IconBookmarkSolid",
+      "file": "ic_bookmark_solid.svg",
+      "nodeId": "4072:2232",
+      "figmaName": "ic_bookmark_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "building",
+      "componentName": "IconBuilding",
+      "file": "ic_building.svg",
+      "nodeId": "2861:62",
+      "figmaName": "ic_building",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "calendar",
+      "componentName": "IconCalendar",
+      "file": "ic_calendar.svg",
+      "nodeId": "96:5841",
+      "figmaName": "ic_calendar",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "camera",
+      "componentName": "IconCamera",
+      "file": "ic_camera.svg",
+      "nodeId": "1143:5076",
+      "figmaName": "ic_camera",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "change",
+      "componentName": "IconChange",
+      "file": "ic_change.svg",
+      "nodeId": "817:277",
+      "figmaName": "ic_change",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "check-circle-line",
+      "componentName": "IconCheckCircleLine",
+      "file": "ic_check_circle_line.svg",
+      "nodeId": "96:5876",
+      "figmaName": "ic_check_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "check-circle-solid",
+      "componentName": "IconCheckCircleSolid",
+      "file": "ic_check_circle_solid.svg",
+      "nodeId": "96:5881",
+      "figmaName": "ic_check_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "check-square-line",
+      "componentName": "IconCheckSquareLine",
+      "file": "ic_check_square_line.svg",
+      "nodeId": "96:5886",
+      "figmaName": "ic_check_square_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "check-square-solid",
+      "componentName": "IconCheckSquareSolid",
+      "file": "ic_check_square_solid.svg",
+      "nodeId": "96:5891",
+      "figmaName": "ic_check_square_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-down-l",
+      "componentName": "IconChevronDownL",
+      "file": "ic_chevron_down_L.svg",
+      "nodeId": "96:5961",
+      "figmaName": "ic_chevron_down_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-down-m",
+      "componentName": "IconChevronDownM",
+      "file": "ic_chevron_down_M.svg",
+      "nodeId": "96:5981",
+      "figmaName": "ic_chevron_down_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-down-s",
+      "componentName": "IconChevronDownS",
+      "file": "ic_chevron_down_S.svg",
+      "nodeId": "388:4907",
+      "figmaName": "ic_chevron_down_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-down-solid",
+      "componentName": "IconChevronDownSolid",
+      "file": "ic_chevron_down_solid.svg",
+      "nodeId": "388:287",
+      "figmaName": "ic_chevron_down_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-left-l",
+      "componentName": "IconChevronLeftL",
+      "file": "ic_chevron_left_L.svg",
+      "nodeId": "96:5946",
+      "figmaName": "ic_chevron_left_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-left-m",
+      "componentName": "IconChevronLeftM",
+      "file": "ic_chevron_left_M.svg",
+      "nodeId": "96:5966",
+      "figmaName": "ic_chevron_left_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-left-s",
+      "componentName": "IconChevronLeftS",
+      "file": "ic_chevron_left_S.svg",
+      "nodeId": "388:4881",
+      "figmaName": "ic_chevron_left_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-left-solid",
+      "componentName": "IconChevronLeftSolid",
+      "file": "ic_chevron_left_solid.svg",
+      "nodeId": "388:251",
+      "figmaName": "ic_chevron_left_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-right-l",
+      "componentName": "IconChevronRightL",
+      "file": "ic_chevron_right_L.svg",
+      "nodeId": "96:5951",
+      "figmaName": "ic_chevron_right_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-right-m",
+      "componentName": "IconChevronRightM",
+      "file": "ic_chevron_right_M.svg",
+      "nodeId": "96:5971",
+      "figmaName": "ic_chevron_right_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-right-s",
+      "componentName": "IconChevronRightS",
+      "file": "ic_chevron_right_S.svg",
+      "nodeId": "388:4891",
+      "figmaName": "ic_chevron_right_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-right-solid",
+      "componentName": "IconChevronRightSolid",
+      "file": "ic_chevron_right_solid.svg",
+      "nodeId": "388:261",
+      "figmaName": "ic_chevron_right_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-up-l",
+      "componentName": "IconChevronUpL",
+      "file": "ic_chevron_up_L.svg",
+      "nodeId": "96:5956",
+      "figmaName": "ic_chevron_up_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-up-m",
+      "componentName": "IconChevronUpM",
+      "file": "ic_chevron_up_M.svg",
+      "nodeId": "96:5976",
+      "figmaName": "ic_chevron_up_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-up-s",
+      "componentName": "IconChevronUpS",
+      "file": "ic_chevron_up_S.svg",
+      "nodeId": "388:4911",
+      "figmaName": "ic_chevron_up_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "chevron-up-solid",
+      "componentName": "IconChevronUpSolid",
+      "file": "ic_chevron_up_solid.svg",
+      "nodeId": "388:271",
+      "figmaName": "ic_chevron_up_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "circle-dashed",
+      "componentName": "IconCircleDashed",
+      "file": "ic_circle_dashed.svg",
+      "nodeId": "2196:362",
+      "figmaName": "ic_circle_dashed",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "circle-line",
+      "componentName": "IconCircleLine",
+      "file": "ic_circle_line.svg",
+      "nodeId": "96:5851",
+      "figmaName": "ic_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clear-circle-line",
+      "componentName": "IconClearCircleLine",
+      "file": "ic_clear_circle_line.svg",
+      "nodeId": "401:6199",
+      "figmaName": "ic_clear_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clear-circle-solid",
+      "componentName": "IconClearCircleSolid",
+      "file": "ic_clear_circle_solid.svg",
+      "nodeId": "389:6451",
+      "figmaName": "ic_clear_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-new",
+      "componentName": "IconClipboardNew",
+      "file": "ic_clipboard_new.svg",
+      "nodeId": "1213:17147",
+      "figmaName": "ic_clipboard_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clear-tag",
+      "componentName": "IconClearTag",
+      "file": "ic_clear_tag.svg",
+      "nodeId": "96:5986",
+      "figmaName": "ic_clear_tag",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard",
+      "componentName": "IconClipboard",
+      "file": "ic_clipboard.svg",
+      "nodeId": "401:9476",
+      "figmaName": "ic_clipboard",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-correct",
+      "componentName": "IconClipboardCorrect",
+      "file": "ic_clipboard_correct.svg",
+      "nodeId": "405:359",
+      "figmaName": "ic_clipboard_correct",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-count",
+      "componentName": "IconClipboardCount",
+      "file": "ic_clipboard_count.svg",
+      "nodeId": "1083:7134",
+      "figmaName": "ic_clipboard_count",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-diamond",
+      "componentName": "IconClipboardDiamond",
+      "file": "ic_clipboard_diamond.svg",
+      "nodeId": "2156:240",
+      "figmaName": "ic_clipboard_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-edit",
+      "componentName": "IconClipboardEdit",
+      "file": "ic_clipboard_edit.svg",
+      "nodeId": "1033:6897",
+      "figmaName": "ic_clipboard_edit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-error",
+      "componentName": "IconClipboardError",
+      "file": "ic_clipboard_error.svg",
+      "nodeId": "405:342",
+      "figmaName": "ic_clipboard_error",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-grand-diamond",
+      "componentName": "IconClipboardGrandDiamond",
+      "file": "ic_clipboard_grand_diamond.svg",
+      "nodeId": "2555:1772",
+      "figmaName": "ic_clipboard_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-info",
+      "componentName": "IconClipboardInfo",
+      "file": "ic_clipboard_info.svg",
+      "nodeId": "406:2055",
+      "figmaName": "ic_clipboard_info",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-mark",
+      "componentName": "IconClipboardMark",
+      "file": "ic_clipboard_mark.svg",
+      "nodeId": "2152:138",
+      "figmaName": "ic_clipboard_mark",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-price",
+      "componentName": "IconClipboardPrice",
+      "file": "ic_clipboard_price.svg",
+      "nodeId": "4045:31",
+      "figmaName": "ic_clipboard_price",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-twinkle-star",
+      "componentName": "IconClipboardTwinkleStar",
+      "file": "ic_clipboard_twinkle_star.svg",
+      "nodeId": "2194:325",
+      "figmaName": "ic_clipboard_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "clipboard-warning",
+      "componentName": "IconClipboardWarning",
+      "file": "ic_clipboard_warning.svg",
+      "nodeId": "406:2043",
+      "figmaName": "ic_clipboard_warning",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "close",
+      "componentName": "IconClose",
+      "file": "ic_close.svg",
+      "nodeId": "96:5846",
+      "figmaName": "ic_close",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "column",
+      "componentName": "IconColumn",
+      "file": "ic_column.svg",
+      "nodeId": "1583:89",
+      "figmaName": "ic_column",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "comment",
+      "componentName": "IconComment",
+      "file": "ic_comment.svg",
+      "nodeId": "3600:6703",
+      "figmaName": "ic_comment",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "construction-site",
+      "componentName": "IconConstructionSite",
+      "file": "ic_construction_site.svg",
+      "nodeId": "1006:1097",
+      "figmaName": "ic_construction_site",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "controller",
+      "componentName": "IconController",
+      "file": "ic_controller.svg",
+      "nodeId": "2022:27",
+      "figmaName": "ic_controller",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "copy-line",
+      "componentName": "IconCopyLine",
+      "file": "ic_copy_line.svg",
+      "nodeId": "405:2015",
+      "figmaName": "ic_copy_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "correct",
+      "componentName": "IconCorrect",
+      "file": "ic_correct.svg",
+      "nodeId": "96:5871",
+      "figmaName": "ic_correct",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "counting",
+      "componentName": "IconCounting",
+      "file": "ic_counting.svg",
+      "nodeId": "1142:5023",
+      "figmaName": "ic_counting",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-ads",
+      "componentName": "IconCreateAds",
+      "file": "ic_create_ads.svg",
+      "nodeId": "3468:62",
+      "figmaName": "ic_create_ads",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-blog",
+      "componentName": "IconCreateBlog",
+      "file": "ic_create_blog.svg",
+      "nodeId": "3468:38",
+      "figmaName": "ic_create_blog",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-comment",
+      "componentName": "IconCreateComment",
+      "file": "ic_create_comment.svg",
+      "nodeId": "3600:6684",
+      "figmaName": "ic_create_comment",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-news",
+      "componentName": "IconCreateNews",
+      "file": "ic_create_news.svg",
+      "nodeId": "3573:221",
+      "figmaName": "ic_create_news",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "credit-card",
+      "componentName": "IconCreditCard",
+      "file": "ic_credit_card.svg",
+      "nodeId": "2749:440",
+      "figmaName": "ic_credit_card",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "customer-secure",
+      "componentName": "IconCustomerSecure",
+      "file": "ic_customer_secure.svg",
+      "nodeId": "1363:5228",
+      "figmaName": "ic_customer_secure",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "delete-line",
+      "componentName": "IconDeleteLine",
+      "file": "ic_delete_line.svg",
+      "nodeId": "267:18",
+      "figmaName": "ic_delete_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "delete-solid",
+      "componentName": "IconDeleteSolid",
+      "file": "ic_delete_solid.svg",
+      "nodeId": "585:55",
+      "figmaName": "ic_delete_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "deposit",
+      "componentName": "IconDeposit",
+      "file": "ic_deposit.svg",
+      "nodeId": "2152:70",
+      "figmaName": "ic_deposit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "deposit-coin",
+      "componentName": "IconDepositCoin",
+      "file": "ic_deposit_coin.svg",
+      "nodeId": "4072:2364",
+      "figmaName": "ic_deposit_coin",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "deposit-diamond",
+      "componentName": "IconDepositDiamond",
+      "file": "ic_deposit_diamond.svg",
+      "nodeId": "2555:1925",
+      "figmaName": "ic_deposit_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "deposit-grand-diamond",
+      "componentName": "IconDepositGrandDiamond",
+      "file": "ic_deposit_grand_diamond.svg",
+      "nodeId": "2555:1893",
+      "figmaName": "ic_deposit_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "diamond-line",
+      "componentName": "IconDiamondLine",
+      "file": "ic_diamond_line.svg",
+      "nodeId": "2154:165",
+      "figmaName": "ic_diamond_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "diamond-solid",
+      "componentName": "IconDiamondSolid",
+      "file": "ic_diamond_solid.svg",
+      "nodeId": "2154:179",
+      "figmaName": "ic_diamond_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "diamond-square",
+      "componentName": "IconDiamondSquare",
+      "file": "ic_diamond_square.svg",
+      "nodeId": "2155:194",
+      "figmaName": "ic_diamond_square",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "disable",
+      "componentName": "IconDisable",
+      "file": "ic_disable.svg",
+      "nodeId": "393:9453",
+      "figmaName": "ic_disable",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "disable-solid",
+      "componentName": "IconDisableSolid",
+      "file": "ic_disable_solid.svg",
+      "nodeId": "393:9475",
+      "figmaName": "ic_disable_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc",
+      "componentName": "IconDoc",
+      "file": "ic_doc.svg",
+      "nodeId": "96:5831",
+      "figmaName": "ic_doc",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-attached",
+      "componentName": "IconDocAttached",
+      "file": "ic_doc_attached.svg",
+      "nodeId": "371:29372",
+      "figmaName": "ic_doc_attached",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-authority",
+      "componentName": "IconDocAuthority",
+      "file": "ic_doc_authority.svg",
+      "nodeId": "2862:1735",
+      "figmaName": "ic_doc_authority",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-authority-new",
+      "componentName": "IconDocAuthorityNew",
+      "file": "ic_doc_authority_new.svg",
+      "nodeId": "621:890",
+      "figmaName": "ic_doc_authority_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-blank",
+      "componentName": "IconDocBlank",
+      "file": "ic_doc_blank.svg",
+      "nodeId": "405:419",
+      "figmaName": "ic_doc_blank",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-correct",
+      "componentName": "IconDocCorrect",
+      "file": "ic_doc_correct.svg",
+      "nodeId": "404:9542",
+      "figmaName": "ic_doc_correct",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-customer",
+      "componentName": "IconDocCustomer",
+      "file": "ic_doc_customer.svg",
+      "nodeId": "815:237",
+      "figmaName": "ic_doc_customer",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-customer-new",
+      "componentName": "IconDocCustomerNew",
+      "file": "ic_doc_customer_new.svg",
+      "nodeId": "815:198",
+      "figmaName": "ic_doc_customer_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-delete",
+      "componentName": "IconDocDelete",
+      "file": "ic_doc_delete.svg",
+      "nodeId": "406:2094",
+      "figmaName": "ic_doc_delete",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-diamond",
+      "componentName": "IconDocDiamond",
+      "file": "ic_doc_diamond.svg",
+      "nodeId": "2156:209",
+      "figmaName": "ic_doc_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-disabled",
+      "componentName": "IconDocDisabled",
+      "file": "ic_doc_disabled.svg",
+      "nodeId": "3922:289",
+      "figmaName": "ic_doc_disabled",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-edit",
+      "componentName": "IconDocEdit",
+      "file": "ic_doc_edit.svg",
+      "nodeId": "371:29260",
+      "figmaName": "ic_doc_edit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-error",
+      "componentName": "IconDocError",
+      "file": "ic_doc_error.svg",
+      "nodeId": "404:9558",
+      "figmaName": "ic_doc_error",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-export",
+      "componentName": "IconDocExport",
+      "file": "ic_doc_export.svg",
+      "nodeId": "2409:623",
+      "figmaName": "ic_doc_export",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-formal",
+      "componentName": "IconDocFormal",
+      "file": "ic_doc_formal.svg",
+      "nodeId": "2871:355",
+      "figmaName": "ic_doc_formal",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-grand-diamond",
+      "componentName": "IconDocGrandDiamond",
+      "file": "ic_doc_grand_diamond.svg",
+      "nodeId": "2555:1800",
+      "figmaName": "ic_doc_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-info",
+      "componentName": "IconDocInfo",
+      "file": "ic_doc_info.svg",
+      "nodeId": "371:29291",
+      "figmaName": "ic_doc_info",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-mark",
+      "componentName": "IconDocMark",
+      "file": "ic_doc_mark.svg",
+      "nodeId": "2152:46",
+      "figmaName": "ic_doc_mark",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-new",
+      "componentName": "IconDocNew",
+      "file": "ic_doc_new.svg",
+      "nodeId": "371:29282",
+      "figmaName": "ic_doc_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-price",
+      "componentName": "IconDocPrice",
+      "file": "ic_doc_price.svg",
+      "nodeId": "405:435",
+      "figmaName": "ic_doc_price",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-report",
+      "componentName": "IconDocReport",
+      "file": "ic_doc_report.svg",
+      "nodeId": "380:55",
+      "figmaName": "ic_doc_report",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-search",
+      "componentName": "IconDocSearch",
+      "file": "ic_doc_search.svg",
+      "nodeId": "404:9732",
+      "figmaName": "ic_doc_search",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-shelf",
+      "componentName": "IconDocShelf",
+      "file": "ic_doc_shelf.svg",
+      "nodeId": "405:407",
+      "figmaName": "ic_doc_shelf",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-shelf-add",
+      "componentName": "IconDocShelfAdd",
+      "file": "ic_doc_shelf_add.svg",
+      "nodeId": "820:342",
+      "figmaName": "ic_doc_shelf_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-twinkle-star",
+      "componentName": "IconDocTwinkleStar",
+      "file": "ic_doc_twinkle_star.svg",
+      "nodeId": "2194:298",
+      "figmaName": "ic_doc_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-unit",
+      "componentName": "IconDocUnit",
+      "file": "ic_doc_unit.svg",
+      "nodeId": "404:9748",
+      "figmaName": "ic_doc_unit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "doc-warning",
+      "componentName": "IconDocWarning",
+      "file": "ic_doc_warning.svg",
+      "nodeId": "404:9615",
+      "figmaName": "ic_doc_warning",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "double-chevron-left-s",
+      "componentName": "IconDoubleChevronLeftS",
+      "file": "ic_double_chevron_left_S.svg",
+      "nodeId": "2460:3066",
+      "figmaName": "ic_double_chevron_left_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "double-chevron-right-s",
+      "componentName": "IconDoubleChevronRightS",
+      "file": "ic_double_chevron_right_S.svg",
+      "nodeId": "2460:3093",
+      "figmaName": "ic_double_chevron_right_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "download",
+      "componentName": "IconDownload",
+      "file": "ic_download.svg",
+      "nodeId": "664:4809",
+      "figmaName": "ic_download",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "employee",
+      "componentName": "IconEmployee",
+      "file": "ic_employee.svg",
+      "nodeId": "404:9631",
+      "figmaName": "ic_employee",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "employee-add",
+      "componentName": "IconEmployeeAdd",
+      "file": "ic_employee_add.svg",
+      "nodeId": "2373:598",
+      "figmaName": "ic_employee_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "employee-circle-line",
+      "componentName": "IconEmployeeCircleLine",
+      "file": "ic_employee_circle_line.svg",
+      "nodeId": "1023:6709",
+      "figmaName": "ic_employee_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "employee-l",
+      "componentName": "IconEmployeeL",
+      "file": "ic_employee_L.svg",
+      "nodeId": "2087:114",
+      "figmaName": "ic_employee_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "entrance",
+      "componentName": "IconEntrance",
+      "file": "ic_entrance.svg",
+      "nodeId": "406:2104",
+      "figmaName": "ic_entrance",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "error",
+      "componentName": "IconError",
+      "file": "ic_error.svg",
+      "nodeId": "96:5866",
+      "figmaName": "ic_error",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "error-circle-line",
+      "componentName": "IconErrorCircleLine",
+      "file": "ic_error_circle_line.svg",
+      "nodeId": "96:5856",
+      "figmaName": "ic_error_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "error-circle-solid",
+      "componentName": "IconErrorCircleSolid",
+      "file": "ic_error_circle_solid.svg",
+      "nodeId": "96:5861",
+      "figmaName": "ic_error_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "error-square-line",
+      "componentName": "IconErrorSquareLine",
+      "file": "ic_error_square_line.svg",
+      "nodeId": "401:9302",
+      "figmaName": "ic_error_square_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "error-square-solid",
+      "componentName": "IconErrorSquareSolid",
+      "file": "ic_error_square_solid.svg",
+      "nodeId": "401:9309",
+      "figmaName": "ic_error_square_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "expand",
+      "componentName": "IconExpand",
+      "file": "ic_expand.svg",
+      "nodeId": "2043:22",
+      "figmaName": "ic_expand",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "eye-hide",
+      "componentName": "IconEyeHide",
+      "file": "ic_eye_hide.svg",
+      "nodeId": "817:261",
+      "figmaName": "ic_eye_hide",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "eye-show",
+      "componentName": "IconEyeShow",
+      "file": "ic_eye_show.svg",
+      "nodeId": "817:249",
+      "figmaName": "ic_eye_show",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "file-xls",
+      "componentName": "IconFileXls",
+      "file": "ic_file_xls.svg",
+      "nodeId": "2931:2431",
+      "figmaName": "ic_file_xls",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "flag-line",
+      "componentName": "IconFlagLine",
+      "file": "ic_flag_line.svg",
+      "nodeId": "401:9333",
+      "figmaName": "ic_flag_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder",
+      "componentName": "IconFolder",
+      "file": "ic_folder.svg",
+      "nodeId": "404:9760",
+      "figmaName": "ic_folder",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-alert",
+      "componentName": "IconFolderAlert",
+      "file": "ic_folder_alert.svg",
+      "nodeId": "404:9846",
+      "figmaName": "ic_folder_alert",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-correct",
+      "componentName": "IconFolderCorrect",
+      "file": "ic_folder_correct.svg",
+      "nodeId": "404:9878",
+      "figmaName": "ic_folder_correct",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-delete",
+      "componentName": "IconFolderDelete",
+      "file": "ic_folder_delete.svg",
+      "nodeId": "404:9814",
+      "figmaName": "ic_folder_delete",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-diamond",
+      "componentName": "IconFolderDiamond",
+      "file": "ic_folder_diamond.svg",
+      "nodeId": "2156:255",
+      "figmaName": "ic_folder_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-error",
+      "componentName": "IconFolderError",
+      "file": "ic_folder_error.svg",
+      "nodeId": "404:9862",
+      "figmaName": "ic_folder_error",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-grand-diamond",
+      "componentName": "IconFolderGrandDiamond",
+      "file": "ic_folder_grand_diamond.svg",
+      "nodeId": "2555:1753",
+      "figmaName": "ic_folder_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-info",
+      "componentName": "IconFolderInfo",
+      "file": "ic_folder_info.svg",
+      "nodeId": "384:112",
+      "figmaName": "ic_folder_info",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-mark",
+      "componentName": "IconFolderMark",
+      "file": "ic_folder_mark.svg",
+      "nodeId": "2152:116",
+      "figmaName": "ic_folder_mark",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-new",
+      "componentName": "IconFolderNew",
+      "file": "ic_folder_new.svg",
+      "nodeId": "404:9798",
+      "figmaName": "ic_folder_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-open",
+      "componentName": "IconFolderOpen",
+      "file": "ic_folder_open.svg",
+      "nodeId": "405:260",
+      "figmaName": "ic_folder_open",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-search",
+      "componentName": "IconFolderSearch",
+      "file": "ic_folder_search.svg",
+      "nodeId": "404:9779",
+      "figmaName": "ic_folder_search",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-twinkle-star",
+      "componentName": "IconFolderTwinkleStar",
+      "file": "ic_folder_twinkle_star.svg",
+      "nodeId": "2194:314",
+      "figmaName": "ic_folder_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "folder-unit",
+      "componentName": "IconFolderUnit",
+      "file": "ic_folder_unit.svg",
+      "nodeId": "404:9829",
+      "figmaName": "ic_folder_unit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "project-doc-new",
+      "componentName": "IconProjectDocNew",
+      "file": "ic_project_doc_new.svg",
+      "nodeId": "621:915",
+      "figmaName": "ic_project_doc_new",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "form",
+      "componentName": "IconForm",
+      "file": "ic_form.svg",
+      "nodeId": "379:33",
+      "figmaName": "ic_form",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "gird-create",
+      "componentName": "IconGirdCreate",
+      "file": "ic_gird_create.svg",
+      "nodeId": "3552:361",
+      "figmaName": "ic_gird_create",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "global",
+      "componentName": "IconGlobal",
+      "file": "ic_global.svg",
+      "nodeId": "1123:16981",
+      "figmaName": "ic_global",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "grand-diamond",
+      "componentName": "IconGrandDiamond",
+      "file": "ic_grand_diamond.svg",
+      "nodeId": "2167:26",
+      "figmaName": "ic_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "grand-diamond-add",
+      "componentName": "IconGrandDiamondAdd",
+      "file": "ic_grand_diamond_add.svg",
+      "nodeId": "2555:1873",
+      "figmaName": "ic_grand_diamond_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "graph",
+      "componentName": "IconGraph",
+      "file": "ic_graph.svg",
+      "nodeId": "404:9898",
+      "figmaName": "ic_graph",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "graph-increase",
+      "componentName": "IconGraphIncrease",
+      "file": "ic_graph_increase.svg",
+      "nodeId": "2047:42",
+      "figmaName": "ic_graph_increase",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "group",
+      "componentName": "IconGroup",
+      "file": "ic_group.svg",
+      "nodeId": "754:309",
+      "figmaName": "ic_group",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "history",
+      "componentName": "IconHistory",
+      "file": "ic_history.svg",
+      "nodeId": "585:32",
+      "figmaName": "ic_history",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "house-owner",
+      "componentName": "IconHouseOwner",
+      "file": "ic_house_owner.svg",
+      "nodeId": "755:326",
+      "figmaName": "ic_house_owner",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "house-plan",
+      "componentName": "IconHousePlan",
+      "file": "ic_house_plan.svg",
+      "nodeId": "2859:38",
+      "figmaName": "ic_house_plan",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "human",
+      "componentName": "IconHuman",
+      "file": "ic_human.svg",
+      "nodeId": "404:9716",
+      "figmaName": "ic_human",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "id-card",
+      "componentName": "IconIdCard",
+      "file": "ic_id_card.svg",
+      "nodeId": "747:240",
+      "figmaName": "ic_id_card",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "id-verification",
+      "componentName": "IconIdVerification",
+      "file": "ic_id_verification.svg",
+      "nodeId": "3503:119",
+      "figmaName": "ic_id_verification",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "inbox",
+      "componentName": "IconInbox",
+      "file": "ic_inbox.svg",
+      "nodeId": "405:476",
+      "figmaName": "ic_inbox",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "info-line",
+      "componentName": "IconInfoLine",
+      "file": "ic_info_line.svg",
+      "nodeId": "267:392",
+      "figmaName": "ic_info_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "info-solid",
+      "componentName": "IconInfoSolid",
+      "file": "ic_info_solid.svg",
+      "nodeId": "267:408",
+      "figmaName": "ic_info_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "inspect-pack",
+      "componentName": "IconInspectPack",
+      "file": "ic_inspect_pack.svg",
+      "nodeId": "1772:25",
+      "figmaName": "ic_inspect_pack",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "inspect-unit",
+      "componentName": "IconInspectUnit",
+      "file": "ic_inspect_unit.svg",
+      "nodeId": "623:944",
+      "figmaName": "ic_inspect_unit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "installment",
+      "componentName": "IconInstallment",
+      "file": "ic_installment.svg",
+      "nodeId": "2956:31",
+      "figmaName": "ic_installment",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "journey",
+      "componentName": "IconJourney",
+      "file": "ic_journey.svg",
+      "nodeId": "371:29341",
+      "figmaName": "ic_journey",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "key",
+      "componentName": "IconKey",
+      "file": "ic_key.svg",
+      "nodeId": "310:11",
+      "figmaName": "ic_key",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "key-access",
+      "componentName": "IconKeyAccess",
+      "file": "ic_key_access.svg",
+      "nodeId": "405:231",
+      "figmaName": "ic_key_access",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "left-sidebar",
+      "componentName": "IconLeftSidebar",
+      "file": "ic_left_sidebar.svg",
+      "nodeId": "3252:41",
+      "figmaName": "ic_left_sidebar",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "letter",
+      "componentName": "IconLetter",
+      "file": "ic_letter.svg",
+      "nodeId": "96:5826",
+      "figmaName": "ic_letter",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "library-customer",
+      "componentName": "IconLibraryCustomer",
+      "file": "ic_library_customer.svg",
+      "nodeId": "274:2027",
+      "figmaName": "ic_library_customer",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "library-employee",
+      "componentName": "IconLibraryEmployee",
+      "file": "ic_library_employee.svg",
+      "nodeId": "2152:25",
+      "figmaName": "ic_library_employee",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "library-location",
+      "componentName": "IconLibraryLocation",
+      "file": "ic_library_location.svg",
+      "nodeId": "275:2049",
+      "figmaName": "ic_library_location",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "library-project",
+      "componentName": "IconLibraryProject",
+      "file": "ic_library_project.svg",
+      "nodeId": "406:2072",
+      "figmaName": "ic_library_project",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "library-search",
+      "componentName": "IconLibrarySearch",
+      "file": "ic_library_search.svg",
+      "nodeId": "2457:216",
+      "figmaName": "ic_library_search",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "list",
+      "componentName": "IconList",
+      "file": "ic_list.svg",
+      "nodeId": "404:9934",
+      "figmaName": "ic_list",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "load",
+      "componentName": "IconLoad",
+      "file": "ic_load.svg",
+      "nodeId": "644:20",
+      "figmaName": "ic_load",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "location",
+      "componentName": "IconLocation",
+      "file": "ic_location.svg",
+      "nodeId": "96:5811",
+      "figmaName": "ic_location",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "lock",
+      "componentName": "IconLock",
+      "file": "ic_lock.svg",
+      "nodeId": "404:9582",
+      "figmaName": "ic_lock",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "login",
+      "componentName": "IconLogin",
+      "file": "ic_login.svg",
+      "nodeId": "405:248",
+      "figmaName": "ic_login",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "logout",
+      "componentName": "IconLogout",
+      "file": "ic_logout.svg",
+      "nodeId": "371:29386",
+      "figmaName": "ic_logout",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mail",
+      "componentName": "IconMail",
+      "file": "ic_mail.svg",
+      "nodeId": "405:482",
+      "figmaName": "ic_mail",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mail-sending",
+      "componentName": "IconMailSending",
+      "file": "ic_mail_sending.svg",
+      "nodeId": "4072:2485",
+      "figmaName": "ic_mail_sending",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mail-forward",
+      "componentName": "IconMailForward",
+      "file": "ic_mail_forward.svg",
+      "nodeId": "3380:30",
+      "figmaName": "ic_mail_forward",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "manage-search",
+      "componentName": "IconManageSearch",
+      "file": "ic_manage_search.svg",
+      "nodeId": "3504:153",
+      "figmaName": "ic_manage_search",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "manual",
+      "componentName": "IconManual",
+      "file": "ic_manual.svg",
+      "nodeId": "371:29357",
+      "figmaName": "ic_manual",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mark",
+      "componentName": "IconMark",
+      "file": "ic_mark.svg",
+      "nodeId": "405:454",
+      "figmaName": "ic_mark",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mark-square",
+      "componentName": "IconMarkSquare",
+      "file": "ic_mark_square.svg",
+      "nodeId": "2153:152",
+      "figmaName": "ic_mark_square",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "menu-chocolate",
+      "componentName": "IconMenuChocolate",
+      "file": "ic_menu_chocolate.svg",
+      "nodeId": "96:5996",
+      "figmaName": "ic_menu_chocolate",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "menu-hamberger",
+      "componentName": "IconMenuHamberger",
+      "file": "ic_menu_hamberger.svg",
+      "nodeId": "96:5991",
+      "figmaName": "ic_menu_hamberger",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "minus",
+      "componentName": "IconMinus",
+      "file": "ic_minus.svg",
+      "nodeId": "96:5916",
+      "figmaName": "ic_minus",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "minus-circle-line",
+      "componentName": "IconMinusCircleLine",
+      "file": "ic_minus_circle_line.svg",
+      "nodeId": "405:303",
+      "figmaName": "ic_minus_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "minus-circle-solid",
+      "componentName": "IconMinusCircleSolid",
+      "file": "ic_minus_circle_solid.svg",
+      "nodeId": "405:323",
+      "figmaName": "ic_minus_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mobile",
+      "componentName": "IconMobile",
+      "file": "ic_mobile.svg",
+      "nodeId": "747:221",
+      "figmaName": "ic_mobile",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "mobile-menu-question",
+      "componentName": "IconMobileMenuQuestion",
+      "file": "ic_mobile_menu_question.svg",
+      "nodeId": "3609:44",
+      "figmaName": "ic_mobile_menu_question",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "more-kebab",
+      "componentName": "IconMoreKebab",
+      "file": "ic_more_kebab.svg",
+      "nodeId": "401:412",
+      "figmaName": "ic_more_kebab",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "more-meatballs",
+      "componentName": "IconMoreMeatballs",
+      "file": "ic_more_meatballs.svg",
+      "nodeId": "96:5836",
+      "figmaName": "ic_more_meatballs",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "news",
+      "componentName": "IconNews",
+      "file": "ic_news.svg",
+      "nodeId": "3573:171",
+      "figmaName": "ic_news",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pack",
+      "componentName": "IconPack",
+      "file": "ic_pack.svg",
+      "nodeId": "1446:5256",
+      "figmaName": "ic_pack",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "person",
+      "componentName": "IconPerson",
+      "file": "ic_person.svg",
+      "nodeId": "885:14472",
+      "figmaName": "ic_person",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "person-add",
+      "componentName": "IconPersonAdd",
+      "file": "ic_person_add.svg",
+      "nodeId": "5705:9",
+      "figmaName": "ic_person_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "person-circle-line",
+      "componentName": "IconPersonCircleLine",
+      "file": "ic_person_circle_line.svg",
+      "nodeId": "404:9697",
+      "figmaName": "ic_person_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "person-circle-solid",
+      "componentName": "IconPersonCircleSolid",
+      "file": "ic_person_circle_solid.svg",
+      "nodeId": "404:9680",
+      "figmaName": "ic_person_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "phone",
+      "componentName": "IconPhone",
+      "file": "ic_phone.svg",
+      "nodeId": "749:256",
+      "figmaName": "ic_phone",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "plus",
+      "componentName": "IconPlus",
+      "file": "ic_plus.svg",
+      "nodeId": "96:5911",
+      "figmaName": "ic_plus",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "plus-circle-line",
+      "componentName": "IconPlusCircleLine",
+      "file": "ic_plus_circle_line.svg",
+      "nodeId": "405:276",
+      "figmaName": "ic_plus_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "plus-circle-solid",
+      "componentName": "IconPlusCircleSolid",
+      "file": "ic_plus_circle_solid.svg",
+      "nodeId": "405:288",
+      "figmaName": "ic_plus_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "power-off",
+      "componentName": "IconPowerOff",
+      "file": "ic_power_off.svg",
+      "nodeId": "1144:5100",
+      "figmaName": "ic_power_off",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "power-on",
+      "componentName": "IconPowerOn",
+      "file": "ic_power_on.svg",
+      "nodeId": "1144:5088",
+      "figmaName": "ic_power_on",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "print",
+      "componentName": "IconPrint",
+      "file": "ic_print.svg",
+      "nodeId": "268:456",
+      "figmaName": "ic_print",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "project",
+      "componentName": "IconProject",
+      "file": "ic_project.svg",
+      "nodeId": "401:9498",
+      "figmaName": "ic_project",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "project-info",
+      "componentName": "IconProjectInfo",
+      "file": "ic_project_info.svg",
+      "nodeId": "96:5806",
+      "figmaName": "ic_project_info",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "promotion",
+      "componentName": "IconPromotion",
+      "file": "ic_promotion.svg",
+      "nodeId": "96:5821",
+      "figmaName": "ic_promotion",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-down-l",
+      "componentName": "IconPullDownL",
+      "file": "ic_pull_down_L.svg",
+      "nodeId": "406:2168",
+      "figmaName": "ic_pull_down_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-down-m",
+      "componentName": "IconPullDownM",
+      "file": "ic_pull_down_M.svg",
+      "nodeId": "405:1919",
+      "figmaName": "ic_pull_down_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-down-s",
+      "componentName": "IconPullDownS",
+      "file": "ic_pull_down_S.svg",
+      "nodeId": "405:867",
+      "figmaName": "ic_pull_down_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-left-arrow",
+      "componentName": "IconPullLeftArrow",
+      "file": "ic_pull_left_arrow.svg",
+      "nodeId": "4072:2315",
+      "figmaName": "ic_pull_left_arrow",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-left-l",
+      "componentName": "IconPullLeftL",
+      "file": "ic_pull_left_L.svg",
+      "nodeId": "406:2120",
+      "figmaName": "ic_pull_left_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-left-m",
+      "componentName": "IconPullLeftM",
+      "file": "ic_pull_left_M.svg",
+      "nodeId": "405:1846",
+      "figmaName": "ic_pull_left_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-left-s",
+      "componentName": "IconPullLeftS",
+      "file": "ic_pull_left_S.svg",
+      "nodeId": "405:513",
+      "figmaName": "ic_pull_left_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-right-arrow",
+      "componentName": "IconPullRightArrow",
+      "file": "ic_pull_right_arrow.svg",
+      "nodeId": "4072:2316",
+      "figmaName": "ic_pull_right_arrow",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-right-l",
+      "componentName": "IconPullRightL",
+      "file": "ic_pull_right_L.svg",
+      "nodeId": "406:2152",
+      "figmaName": "ic_pull_right_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-right-m",
+      "componentName": "IconPullRightM",
+      "file": "ic_pull_right_M.svg",
+      "nodeId": "405:1897",
+      "figmaName": "ic_pull_right_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-right-s",
+      "componentName": "IconPullRightS",
+      "file": "ic_pull_right_S.svg",
+      "nodeId": "405:836",
+      "figmaName": "ic_pull_right_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-up-l",
+      "componentName": "IconPullUpL",
+      "file": "ic_pull_up_L.svg",
+      "nodeId": "406:2184",
+      "figmaName": "ic_pull_up_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-up-m",
+      "componentName": "IconPullUpM",
+      "file": "ic_pull_up_M.svg",
+      "nodeId": "405:1935",
+      "figmaName": "ic_pull_up_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "pull-up-s",
+      "componentName": "IconPullUpS",
+      "file": "ic_pull_up_S.svg",
+      "nodeId": "405:846",
+      "figmaName": "ic_pull_up_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-down-l",
+      "componentName": "IconPushDownL",
+      "file": "ic_push_down_L.svg",
+      "nodeId": "406:2232",
+      "figmaName": "ic_push_down_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-down-m",
+      "componentName": "IconPushDownM",
+      "file": "ic_push_down_M.svg",
+      "nodeId": "405:1983",
+      "figmaName": "ic_push_down_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-down-s",
+      "componentName": "IconPushDownS",
+      "file": "ic_push_down_S.svg",
+      "nodeId": "405:1830",
+      "figmaName": "ic_push_down_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-left-arrow",
+      "componentName": "IconPushLeftArrow",
+      "file": "ic_push_left_arrow.svg",
+      "nodeId": "4072:2279",
+      "figmaName": "ic_push_left_arrow",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-left-l",
+      "componentName": "IconPushLeftL",
+      "file": "ic_push_left_L.svg",
+      "nodeId": "406:2194",
+      "figmaName": "ic_push_left_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-left-m",
+      "componentName": "IconPushLeftM",
+      "file": "ic_push_left_M.svg",
+      "nodeId": "405:1945",
+      "figmaName": "ic_push_left_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-left-s",
+      "componentName": "IconPushLeftS",
+      "file": "ic_push_left_S.svg",
+      "nodeId": "405:877",
+      "figmaName": "ic_push_left_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-right-arrow",
+      "componentName": "IconPushRightArrow",
+      "file": "ic_push_right_arrow.svg",
+      "nodeId": "4072:2280",
+      "figmaName": "ic_push_right_arrow",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-right-l",
+      "componentName": "IconPushRightL",
+      "file": "ic_push_right_L.svg",
+      "nodeId": "406:2210",
+      "figmaName": "ic_push_right_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-right-m",
+      "componentName": "IconPushRightM",
+      "file": "ic_push_right_M.svg",
+      "nodeId": "405:1967",
+      "figmaName": "ic_push_right_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-right-s",
+      "componentName": "IconPushRightS",
+      "file": "ic_push_right_S.svg",
+      "nodeId": "405:893",
+      "figmaName": "ic_push_right_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-up-l",
+      "componentName": "IconPushUpL",
+      "file": "ic_push_up_L.svg",
+      "nodeId": "406:2248",
+      "figmaName": "ic_push_up_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-up-m",
+      "componentName": "IconPushUpM",
+      "file": "ic_push_up_M.svg",
+      "nodeId": "405:1999",
+      "figmaName": "ic_push_up_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "push-up-s",
+      "componentName": "IconPushUpS",
+      "file": "ic_push_up_S.svg",
+      "nodeId": "405:1816",
+      "figmaName": "ic_push_up_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "qr-code",
+      "componentName": "IconQrCode",
+      "file": "ic_qr_code.svg",
+      "nodeId": "1796:6960",
+      "figmaName": "ic_qr_code",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "question",
+      "componentName": "IconQuestion",
+      "file": "ic_question.svg",
+      "nodeId": "3631:29",
+      "figmaName": "ic_question",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "question-circle-line",
+      "componentName": "IconQuestionCircleLine",
+      "file": "ic_question_circle_line.svg",
+      "nodeId": "819:304",
+      "figmaName": "ic_question_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "question-circle-solid",
+      "componentName": "IconQuestionCircleSolid",
+      "file": "ic_question_circle_solid.svg",
+      "nodeId": "819:323",
+      "figmaName": "ic_question_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "rack",
+      "componentName": "IconRack",
+      "file": "ic_rack.svg",
+      "nodeId": "1586:130",
+      "figmaName": "ic_rack",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "receipt",
+      "componentName": "IconReceipt",
+      "file": "ic_receipt.svg",
+      "nodeId": "4058:2094",
+      "figmaName": "ic_receipt",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "receipt-price",
+      "componentName": "IconReceiptPrice",
+      "file": "ic_receipt_price.svg",
+      "nodeId": "4063:2146",
+      "figmaName": "ic_receipt_price",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "reload",
+      "componentName": "IconReload",
+      "file": "ic_reload.svg",
+      "nodeId": "605:883",
+      "figmaName": "ic_reload",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "relocate",
+      "componentName": "IconRelocate",
+      "file": "ic_relocate.svg",
+      "nodeId": "1600:54",
+      "figmaName": "ic_relocate",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "reverse",
+      "componentName": "IconReverse",
+      "file": "ic_reverse.svg",
+      "nodeId": "3923:313",
+      "figmaName": "ic_reverse",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "row",
+      "componentName": "IconRow",
+      "file": "ic_row.svg",
+      "nodeId": "1583:106",
+      "figmaName": "ic_row",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "save",
+      "componentName": "IconSave",
+      "file": "ic_save.svg",
+      "nodeId": "96:5906",
+      "figmaName": "ic_save",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "scan",
+      "componentName": "IconScan",
+      "file": "ic_scan.svg",
+      "nodeId": "1798:7007",
+      "figmaName": "ic_scan",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "scan-qr-code",
+      "componentName": "IconScanQrCode",
+      "file": "ic_scan_qr_code.svg",
+      "nodeId": "1797:6989",
+      "figmaName": "ic_scan_qr_code",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "search",
+      "componentName": "IconSearch",
+      "file": "ic_search.svg",
+      "nodeId": "388:6384",
+      "figmaName": "ic_search",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "search-emp",
+      "componentName": "IconSearchEmp",
+      "file": "ic_search_emp.svg",
+      "nodeId": "2457:190",
+      "figmaName": "ic_search_emp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "section",
+      "componentName": "IconSection",
+      "file": "ic_section.svg",
+      "nodeId": "1583:72",
+      "figmaName": "ic_section",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "setting-line",
+      "componentName": "IconSettingLine",
+      "file": "ic_setting_line.svg",
+      "nodeId": "585:64",
+      "figmaName": "ic_setting_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "setting-solid",
+      "componentName": "IconSettingSolid",
+      "file": "ic_setting_solid.svg",
+      "nodeId": "585:76",
+      "figmaName": "ic_setting_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "share",
+      "componentName": "IconShare",
+      "file": "ic_share.svg",
+      "nodeId": "3438:55",
+      "figmaName": "ic_share",
+      "width": 23,
+      "height": 23
+    },
+    {
+      "name": "share-social",
+      "componentName": "IconShareSocial",
+      "file": "ic_share_social.svg",
+      "nodeId": "3543:27",
+      "figmaName": "ic_share_social",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "shortcut",
+      "componentName": "IconShortcut",
+      "file": "ic_shortcut.svg",
+      "nodeId": "3439:67",
+      "figmaName": "ic_shortcut",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "slot",
+      "componentName": "IconSlot",
+      "file": "ic_slot.svg",
+      "nodeId": "1583:118",
+      "figmaName": "ic_slot",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sorting",
+      "componentName": "IconSorting",
+      "file": "ic_sorting.svg",
+      "nodeId": "405:375",
+      "figmaName": "ic_sorting",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "square-line",
+      "componentName": "IconSquareLine",
+      "file": "ic_square_line.svg",
+      "nodeId": "96:5896",
+      "figmaName": "ic_square_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "square-solid",
+      "componentName": "IconSquareSolid",
+      "file": "ic_square_solid.svg",
+      "nodeId": "197:4460",
+      "figmaName": "ic_square_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "stack-add",
+      "componentName": "IconStackAdd",
+      "file": "ic_stack_add.svg",
+      "nodeId": "820:362",
+      "figmaName": "ic_stack_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "stair",
+      "componentName": "IconStair",
+      "file": "ic_stair.svg",
+      "nodeId": "2859:25",
+      "figmaName": "ic_stair",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "stock-remove",
+      "componentName": "IconStockRemove",
+      "file": "ic_stock_remove.svg",
+      "nodeId": "1959:546",
+      "figmaName": "ic_stock_remove",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "store",
+      "componentName": "IconStore",
+      "file": "ic_store.svg",
+      "nodeId": "1002:237",
+      "figmaName": "ic_store",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "store-add",
+      "componentName": "IconStoreAdd",
+      "file": "ic_store_add.svg",
+      "nodeId": "1014:6663",
+      "figmaName": "ic_store_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "store-deposit",
+      "componentName": "IconStoreDeposit",
+      "file": "ic_store_deposit.svg",
+      "nodeId": "1007:1254",
+      "figmaName": "ic_store_deposit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "store-stat",
+      "componentName": "IconStoreStat",
+      "file": "ic_store_stat.svg",
+      "nodeId": "1034:6912",
+      "figmaName": "ic_store_stat",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "store-withdraw",
+      "componentName": "IconStoreWithdraw",
+      "file": "ic_store_withdraw.svg",
+      "nodeId": "1007:1276",
+      "figmaName": "ic_store_withdraw",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sub",
+      "componentName": "IconSub",
+      "file": "ic_sub.svg",
+      "nodeId": "1084:7142",
+      "figmaName": "ic_sub",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "thai-baht",
+      "componentName": "IconThaiBaht",
+      "file": "ic_thai_baht.svg",
+      "nodeId": "2069:20",
+      "figmaName": "ic_thai_baht",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "thai-baht-circle-line",
+      "componentName": "IconThaiBahtCircleLine",
+      "file": "ic_thai_baht_circle_line.svg",
+      "nodeId": "2086:96",
+      "figmaName": "ic_thai_baht_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "time-line",
+      "componentName": "IconTimeLine",
+      "file": "ic_time_line.svg",
+      "nodeId": "96:5921",
+      "figmaName": "ic_time_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "time-solid",
+      "componentName": "IconTimeSolid",
+      "file": "ic_time_solid.svg",
+      "nodeId": "401:7819",
+      "figmaName": "ic_time_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "transfer",
+      "componentName": "IconTransfer",
+      "file": "ic_transfer.svg",
+      "nodeId": "277:9",
+      "figmaName": "ic_transfer",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "twinkle-star",
+      "componentName": "IconTwinkleStar",
+      "file": "ic_twinkle_star.svg",
+      "nodeId": "2194:263",
+      "figmaName": "ic_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "twinkle-star-add",
+      "componentName": "IconTwinkleStarAdd",
+      "file": "ic_twinkle_star_add.svg",
+      "nodeId": "2374:620",
+      "figmaName": "ic_twinkle_star_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "twinkle-star-square",
+      "componentName": "IconTwinkleStarSquare",
+      "file": "ic_twinkle_star_square.svg",
+      "nodeId": "2194:299",
+      "figmaName": "ic_twinkle_star_square",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "unit-inspect",
+      "componentName": "IconUnitInspect",
+      "file": "ic_unit_inspect.svg",
+      "nodeId": "372:29431",
+      "figmaName": "ic_unit_inspect",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "unit-size",
+      "componentName": "IconUnitSize",
+      "file": "ic_unit_size.svg",
+      "nodeId": "96:5816",
+      "figmaName": "ic_unit_size",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "units",
+      "componentName": "IconUnits",
+      "file": "ic_units.svg",
+      "nodeId": "4046:51",
+      "figmaName": "ic_units",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "unlock",
+      "componentName": "IconUnlock",
+      "file": "ic_unlock.svg",
+      "nodeId": "404:9604",
+      "figmaName": "ic_unlock",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "upload",
+      "componentName": "IconUpload",
+      "file": "ic_upload.svg",
+      "nodeId": "371:29414",
+      "figmaName": "ic_upload",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "upload-folder",
+      "componentName": "IconUploadFolder",
+      "file": "ic_upload_folder.svg",
+      "nodeId": "404:9914",
+      "figmaName": "ic_upload_folder",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "user-verification",
+      "componentName": "IconUserVerification",
+      "file": "ic_user_verification.svg",
+      "nodeId": "3502:96",
+      "figmaName": "ic_user_verification",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wallet",
+      "componentName": "IconWallet",
+      "file": "ic_wallet.svg",
+      "nodeId": "2203:1773",
+      "figmaName": "ic_wallet",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wallet-diamond",
+      "componentName": "IconWalletDiamond",
+      "file": "ic_wallet_diamond.svg",
+      "nodeId": "2156:270",
+      "figmaName": "ic_wallet_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wallet-grand-diamond",
+      "componentName": "IconWalletGrandDiamond",
+      "file": "ic_wallet_grand_diamond.svg",
+      "nodeId": "2555:1828",
+      "figmaName": "ic_wallet_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wallet-twinkle-star",
+      "componentName": "IconWalletTwinkleStar",
+      "file": "ic_wallet_twinkle_star.svg",
+      "nodeId": "2194:348",
+      "figmaName": "ic_wallet_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wallet-mark",
+      "componentName": "IconWalletMark",
+      "file": "ic_wallet_mark.svg",
+      "nodeId": "2152:55",
+      "figmaName": "ic_wallet_mark",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warehouse",
+      "componentName": "IconWarehouse",
+      "file": "ic_warehouse.svg",
+      "nodeId": "1002:214",
+      "figmaName": "ic_warehouse",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warehouse-create",
+      "componentName": "IconWarehouseCreate",
+      "file": "ic_warehouse_create.svg",
+      "nodeId": "1014:6687",
+      "figmaName": "ic_warehouse_create",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warning-circle-line",
+      "componentName": "IconWarningCircleLine",
+      "file": "ic_warning_circle_line.svg",
+      "nodeId": "267:440",
+      "figmaName": "ic_warning_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warning-circle-solid",
+      "componentName": "IconWarningCircleSolid",
+      "file": "ic_warning_circle_solid.svg",
+      "nodeId": "268:472",
+      "figmaName": "ic_warning_circle_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warning-line",
+      "componentName": "IconWarningLine",
+      "file": "ic_warning_line.svg",
+      "nodeId": "332:1572",
+      "figmaName": "ic_warning_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "warning-solid",
+      "componentName": "IconWarningSolid",
+      "file": "ic_warning_solid.svg",
+      "nodeId": "332:1554",
+      "figmaName": "ic_warning_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "withdraw",
+      "componentName": "IconWithdraw",
+      "file": "ic_withdraw.svg",
+      "nodeId": "2152:86",
+      "figmaName": "ic_withdraw",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "withdraw-coin",
+      "componentName": "IconWithdrawCoin",
+      "file": "ic_withdraw_coin.svg",
+      "nodeId": "4072:2379",
+      "figmaName": "ic_withdraw_coin",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "withdraw-diamond",
+      "componentName": "IconWithdrawDiamond",
+      "file": "ic_withdraw_diamond.svg",
+      "nodeId": "2555:1939",
+      "figmaName": "ic_withdraw_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "withdraw-grand-diamond",
+      "componentName": "IconWithdrawGrandDiamond",
+      "file": "ic_withdraw_grand_diamond.svg",
+      "nodeId": "2555:1957",
+      "figmaName": "ic_withdraw_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "write",
+      "componentName": "IconWrite",
+      "file": "ic_write.svg",
+      "nodeId": "96:5901",
+      "figmaName": "ic_write",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "write-correct",
+      "componentName": "IconWriteCorrect",
+      "file": "ic_write_correct.svg",
+      "nodeId": "272:1980",
+      "figmaName": "ic_write_correct",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "write-failed",
+      "componentName": "IconWriteFailed",
+      "file": "ic_write_failed.svg",
+      "nodeId": "401:9353",
+      "figmaName": "ic_write_failed",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "write-grand-diamond",
+      "componentName": "IconWriteGrandDiamond",
+      "file": "ic_write_grand_diamond.svg",
+      "nodeId": "2555:1858",
+      "figmaName": "ic_write_grand_diamond",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "write-twinkle-star",
+      "componentName": "IconWriteTwinkleStar",
+      "file": "ic_write_twinkle_star.svg",
+      "nodeId": "2372:588",
+      "figmaName": "ic_write_twinkle_star",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "compensation",
+      "componentName": "IconCompensation",
+      "file": "ic_compensation.svg",
+      "nodeId": "4321:177",
+      "figmaName": "ic_compensation",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "filter",
+      "componentName": "IconFilter",
+      "file": "ic_filter.svg",
+      "nodeId": "5888:199",
+      "figmaName": "ic_filter",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "dot-l",
+      "componentName": "IconDotL",
+      "file": "ic_dot_L.svg",
+      "nodeId": "5740:18",
+      "figmaName": "ic_dot_L",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "dot-m",
+      "componentName": "IconDotM",
+      "file": "ic_dot_M.svg",
+      "nodeId": "5740:17",
+      "figmaName": "ic_dot_M",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "dot-s",
+      "componentName": "IconDotS",
+      "file": "ic_dot_S.svg",
+      "nodeId": "5740:19",
+      "figmaName": "ic_dot_S",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "work-bag",
+      "componentName": "IconWorkBag",
+      "file": "ic_work_bag.svg",
+      "nodeId": "5746:21",
+      "figmaName": "ic_work_bag",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "house",
+      "componentName": "IconHouse",
+      "file": "ic_house.svg",
+      "nodeId": "5747:36",
+      "figmaName": "ic_house",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "townhome",
+      "componentName": "IconTownhome",
+      "file": "ic_townhome.svg",
+      "nodeId": "5747:51",
+      "figmaName": "ic_townhome",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "condo",
+      "componentName": "IconCondo",
+      "file": "ic_condo.svg",
+      "nodeId": "5747:59",
+      "figmaName": "ic_condo",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "trophy",
+      "componentName": "IconTrophy",
+      "file": "ic_trophy.svg",
+      "nodeId": "5760:16",
+      "figmaName": "ic_trophy",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "star-circle-line",
+      "componentName": "IconStarCircleLine",
+      "file": "ic_star_circle_line.svg",
+      "nodeId": "5760:34",
+      "figmaName": "ic_star_circle_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "house-check",
+      "componentName": "IconHouseCheck",
+      "file": "ic_house_check.svg",
+      "nodeId": "5761:53",
+      "figmaName": "ic_house_check",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "person-heart",
+      "componentName": "IconPersonHeart",
+      "file": "ic_person_heart.svg",
+      "nodeId": "5761:86",
+      "figmaName": "ic_person_heart",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "gender",
+      "componentName": "IconGender",
+      "file": "ic_gender.svg",
+      "nodeId": "5762:113",
+      "figmaName": "ic_gender",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "marital",
+      "componentName": "IconMarital",
+      "file": "ic_marital.svg",
+      "nodeId": "5763:132",
+      "figmaName": "ic_marital",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "dog",
+      "componentName": "IconDog",
+      "file": "ic_dog.svg",
+      "nodeId": "5764:152",
+      "figmaName": "ic_dog",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "gift",
+      "componentName": "IconGift",
+      "file": "ic_gift.svg",
+      "nodeId": "5764:164",
+      "figmaName": "ic_gift",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "child",
+      "componentName": "IconChild",
+      "file": "ic_child.svg",
+      "nodeId": "5765:185",
+      "figmaName": "ic_child",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "smile",
+      "componentName": "IconSmile",
+      "file": "ic_smile.svg",
+      "nodeId": "5766:204",
+      "figmaName": "ic_smile",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "people-tell",
+      "componentName": "IconPeopleTell",
+      "file": "ic_people_tell.svg",
+      "nodeId": "5767:227",
+      "figmaName": "ic_people_tell",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-appointment",
+      "componentName": "IconCreateAppointment",
+      "file": "ic_create_appointment.svg",
+      "nodeId": "5769:8",
+      "figmaName": "ic_create_appointment",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "bank",
+      "componentName": "IconBank",
+      "file": "ic_bank.svg",
+      "nodeId": "5779:32",
+      "figmaName": "ic_bank",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "star-solid",
+      "componentName": "IconStarSolid",
+      "file": "ic_star_solid.svg",
+      "nodeId": "5779:54",
+      "figmaName": "ic_star_solid",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "star-line",
+      "componentName": "IconStarLine",
+      "file": "ic_star_line.svg",
+      "nodeId": "5888:209",
+      "figmaName": "ic_star_line",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sad",
+      "componentName": "IconSad",
+      "file": "ic_sad.svg",
+      "nodeId": "5780:66",
+      "figmaName": "ic_sad",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "poker-face",
+      "componentName": "IconPokerFace",
+      "file": "ic_poker_face.svg",
+      "nodeId": "5780:92",
+      "figmaName": "ic_poker_face",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "justice",
+      "componentName": "IconJustice",
+      "file": "ic_justice.svg",
+      "nodeId": "5788:11",
+      "figmaName": "ic_justice",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "wrench",
+      "componentName": "IconWrench",
+      "file": "ic_wrench.svg",
+      "nodeId": "5790:28",
+      "figmaName": "ic_wrench",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "asterisk",
+      "componentName": "IconAsterisk",
+      "file": "ic_asterisk.svg",
+      "nodeId": "5859:13",
+      "figmaName": "ic_asterisk",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "upanddown",
+      "componentName": "IconUpanddown",
+      "file": "ic_upanddown.svg",
+      "nodeId": "5860:30",
+      "figmaName": "ic_upanddown",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "crop",
+      "componentName": "IconCrop",
+      "file": "ic_crop.svg",
+      "nodeId": "5885:15",
+      "figmaName": "ic_crop",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "dial",
+      "componentName": "IconDial",
+      "file": "ic_dial.svg",
+      "nodeId": "5886:36",
+      "figmaName": "ic_dial",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "short-text",
+      "componentName": "IconShortText",
+      "file": "ic_short_text.svg",
+      "nodeId": "5887:60",
+      "figmaName": "ic_short_text",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "long-text",
+      "componentName": "IconLongText",
+      "file": "ic_long_text.svg",
+      "nodeId": "5887:80",
+      "figmaName": "ic_long_text",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "choice",
+      "componentName": "IconChoice",
+      "file": "ic_choice.svg",
+      "nodeId": "5888:99",
+      "figmaName": "ic_choice",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "calendar-add",
+      "componentName": "IconCalendarAdd",
+      "file": "ic_calendar_add.svg",
+      "nodeId": "5888:123",
+      "figmaName": "ic_calendar_add",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "hash",
+      "componentName": "IconHash",
+      "file": "ic_hash.svg",
+      "nodeId": "5888:132",
+      "figmaName": "ic_hash",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "metrix",
+      "componentName": "IconMetrix",
+      "file": "ic_metrix.svg",
+      "nodeId": "5888:171",
+      "figmaName": "ic_metrix",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-time",
+      "componentName": "IconCreateTime",
+      "file": "ic_create_time.svg",
+      "nodeId": "5888:230",
+      "figmaName": "ic_create_time",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "drag-indicator-vertical",
+      "componentName": "IconDragIndicatorVertical",
+      "file": "ic_drag_indicator_vertical.svg",
+      "nodeId": "5896:163",
+      "figmaName": "ic_drag_indicator_vertical",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "translate",
+      "componentName": "IconTranslate",
+      "file": "ic_translate.svg",
+      "nodeId": "5896:164",
+      "figmaName": "ic_translate",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "branching",
+      "componentName": "IconBranching",
+      "file": "ic_branching.svg",
+      "nodeId": "5896:165",
+      "figmaName": "ic_branching",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "section-row",
+      "componentName": "IconSectionRow",
+      "file": "ic_section_row.svg",
+      "nodeId": "5896:166",
+      "figmaName": "ic_section_row",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-question",
+      "componentName": "IconCreateQuestion",
+      "file": "ic_create_question.svg",
+      "nodeId": "5896:167",
+      "figmaName": "ic_create_question",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "color-drop",
+      "componentName": "IconColorDrop",
+      "file": "ic_color_drop.svg",
+      "nodeId": "5899:28",
+      "figmaName": "ic_color_drop",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "slide-layout",
+      "componentName": "IconSlideLayout",
+      "file": "ic_slide_layout.svg",
+      "nodeId": "5900:41",
+      "figmaName": "ic_slide_layout",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "grid",
+      "componentName": "IconGrid",
+      "file": "ic_grid.svg",
+      "nodeId": "5900:48",
+      "figmaName": "ic_grid",
+      "width": 23,
+      "height": 23
+    },
+    {
+      "name": "image",
+      "componentName": "IconImage",
+      "file": "ic_image.svg",
+      "nodeId": "5902:74",
+      "figmaName": "ic_image",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "skip",
+      "componentName": "IconSkip",
+      "file": "ic_skip.svg",
+      "nodeId": "5903:87",
+      "figmaName": "ic_skip",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "file-preview",
+      "componentName": "IconFilePreview",
+      "file": "ic_file_preview.svg",
+      "nodeId": "5908:19",
+      "figmaName": "ic_file_preview",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "name": "play-rectangle",
+      "componentName": "IconPlayRectangle",
+      "file": "ic_play_rectangle.svg",
+      "nodeId": "5910:35",
+      "figmaName": "ic_play_rectangle",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "view-only",
+      "componentName": "IconViewOnly",
+      "file": "ic_view_only.svg",
+      "nodeId": "5916:42",
+      "figmaName": "ic_view_only",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "can-edit",
+      "componentName": "IconCanEdit",
+      "file": "ic_can_edit.svg",
+      "nodeId": "5916:45",
+      "figmaName": "ic_can_edit",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "spinner",
+      "componentName": "IconSpinner",
+      "file": "ic_spinner.svg",
+      "nodeId": "5916:33",
+      "figmaName": "ic_spinner",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "quality-check",
+      "componentName": "IconQualityCheck",
+      "file": "ic_quality_check.svg",
+      "nodeId": "5917:58",
+      "figmaName": "ic_quality_check",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-image",
+      "componentName": "IconCreateImage",
+      "file": "ic_create_image.svg",
+      "nodeId": "5917:73",
+      "figmaName": "ic_create_image",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "car",
+      "componentName": "IconCar",
+      "file": "ic_car.svg",
+      "nodeId": "5919:92",
+      "figmaName": "ic_car",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "to-do",
+      "componentName": "IconToDo",
+      "file": "ic_to_do.svg",
+      "nodeId": "5932:131",
+      "figmaName": "ic_to_do",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "draft",
+      "componentName": "IconDraft",
+      "file": "ic_draft.svg",
+      "nodeId": "5933:155",
+      "figmaName": "ic_draft",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-price",
+      "componentName": "IconCreatePrice",
+      "file": "ic_create_price.svg",
+      "nodeId": "5934:172",
+      "figmaName": "ic_create_price",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "create-work",
+      "componentName": "IconCreateWork",
+      "file": "ic_create_work.svg",
+      "nodeId": "5935:195",
+      "figmaName": "ic_create_work",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "waiting-employee",
+      "componentName": "IconWaitingEmployee",
+      "file": "ic_waiting_employee.svg",
+      "nodeId": "5936:205",
+      "figmaName": "ic_waiting_employee",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "for-approval",
+      "componentName": "IconForApproval",
+      "file": "ic_for_approval.svg",
+      "nodeId": "5937:243",
+      "figmaName": "ic_for_approval",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "work-success",
+      "componentName": "IconWorkSuccess",
+      "file": "ic_work_success.svg",
+      "nodeId": "5939:298",
+      "figmaName": "ic_work_success",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "in-progress",
+      "componentName": "IconInProgress",
+      "file": "ic_in_progress.svg",
+      "nodeId": "5940:312",
+      "figmaName": "ic_in_progress",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "work-review",
+      "componentName": "IconWorkReview",
+      "file": "ic_work_review.svg",
+      "nodeId": "5954:15",
+      "figmaName": "ic_work_review",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "add-wrok",
+      "componentName": "IconAddWrok",
+      "file": "ic_add_wrok.svg",
+      "nodeId": "5990:13",
+      "figmaName": "ic_add_wrok",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "work-mark",
+      "componentName": "IconWorkMark",
+      "file": "ic_work_mark.svg",
+      "nodeId": "5997:15",
+      "figmaName": "ic_work_mark",
+      "width": 24,
+      "height": 24
+    }
+  ]
+}

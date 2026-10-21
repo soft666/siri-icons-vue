@@ -1,0 +1,80 @@
+{
+  "expected": 371,
+  "present": 371,
+  "dimensions": {
+    "('24', '24', '0 0 24 24')": 368,
+    "('23', '23', '0 0 23 23')": 2,
+    "('20', '20', '0 0 20 20')": 1
+  },
+  "tags": {
+    "svg": 371,
+    "path": 962,
+    "g": 1,
+    "defs": 1,
+    "clipPath": 1,
+    "rect": 1
+  },
+  "paintValues": {
+    "('fill', 'none')": 371,
+    "('fill', 'black')": 505,
+    "('fill', '#4A4D51')": 1,
+    "('fill', 'white')": 1,
+    "('fill', '#231F20')": 437,
+    "('fill', '#010101')": 14,
+    "('fill', '#161617')": 5
+  },
+  "issues": [],
+  "complex": [
+    {
+      "name": "attach",
+      "tags": {
+        "svg": 1,
+        "g": 1,
+        "path": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "rect": 1
+      },
+      "paints": [
+        "#4A4D51",
+        "none",
+        "white"
+      ],
+      "ids": 1,
+      "refs": 1
+    }
+  ],
+  "hashGroups": [],
+  "spellingQuirks": [
+    {
+      "figmaName": "ic_gird_create",
+      "componentName": "IconGirdCreate",
+      "nodeId": "3552:361"
+    },
+    {
+      "figmaName": "ic_menu_hamberger",
+      "componentName": "IconMenuHamberger",
+      "nodeId": "96:5991"
+    },
+    {
+      "figmaName": "ic_metrix",
+      "componentName": "IconMetrix",
+      "nodeId": "5888:171"
+    },
+    {
+      "figmaName": "ic_add_wrok",
+      "componentName": "IconAddWrok",
+      "nodeId": "5990:13"
+    }
+  ],
+  "glyphColorIconCounts": {
+    "#000000": 218,
+    "#231f20": 140,
+    "#4a4d51": 1,
+    "#010101": 7,
+    "#161617": 5
+  },
+  "colorModes": {
+    "monochrome": 371
+  }
+}

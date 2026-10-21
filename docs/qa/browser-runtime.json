@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "browser": "133.0.6943.0",
+  "hydrationIdsStable": true,
+  "svgDefinitionIdsUnique": true,
+  "forwardedClickWorks": true,
+  "sizeColorTitleReactivity": true,
+  "cssColorAndSizing": true,
+  "warnings": [],
+  "errors": []
+}

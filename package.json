@@ -1,0 +1,59 @@
+{
+  "name": "siri-icons-vue",
+  "version": "0.1.0",
+  "description": "371 tree-shakeable Vue 3 SVG icon components from a Figma icon set.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js",
+      "default": "./dist/icons/*.js"
+    },
+    "./svg/*": "./dist/svg/*",
+    "./metadata.json": "./dist/metadata.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "assets/manifest.json",
+    "assets/original",
+    "README.md",
+    "NOTICE.md",
+    "docs"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gallery": "node scripts/build-gallery.mjs",
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc -p test/tsconfig.json --noEmit",
+    "check": "npm run build && npm test && npm run typecheck",
+    "prepack": "npm run check"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "peerDependencies": {
+    "vue": ">=3.5.0 <4"
+  },
+  "devDependencies": {
+    "@vue/server-renderer": "3.5.44",
+    "@xmldom/xmldom": "0.9.12",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vue": "3.5.44"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
